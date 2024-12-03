@@ -36,6 +36,7 @@ def init_agent_service():
                 'model': 'qwen2.5:72b',
                 'model_server': 'https://api.adamchatbot.chat/v1',  # base_url，也称为 api_base
                 'api_key': 'sk-LUv33qaHFRd1EJSm64C0999d46C746A5A437E8F9610d31E4',
+                'generate_cfg': {'max_input_tokens': 32768}
                }
     bot = TIRMathAgent(llm=llm_cfg, name='qwen2.5:72b', system_message=TIR_SYSTEM)
     return bot
