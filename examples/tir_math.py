@@ -89,7 +89,7 @@ def process_dataset(dataset_path: str, output_path: str):
     """
     处理包含多个数学题的 JSON 数据集，并将结果整理成指定的 JSON 格式并保存到文件中。
 
-    :param dataset_path: examples/resource/yingyongti_test.json
+    :param dataset_path: examples/resource/yingyongti_math.json
     :param output_path: examples/resource/tir_math.json
     """
     bot = init_agent_service()
@@ -144,7 +144,7 @@ def process_dataset(dataset_path: str, output_path: str):
 
 if __name__ == '__main__':
     # 处理数据集并输出结果
-     dataset_path = os.path.join(ROOT_RESOURCE, 'yingyongti_test.json')
+     dataset_path = os.path.join(ROOT_RESOURCE, 'yingyongti_math.json')
      output_path = os.path.join(ROOT_RESOURCE, 'tir_math.json')
      process_dataset(dataset_path, output_path)
 

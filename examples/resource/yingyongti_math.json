@@ -1,0 +1,1002 @@
+[
+  {
+        "instruction": "1. （5 分）已知集合 $M=\\{x \\mid-1<x<3\\}, N=\\{x \\mid-2<x<1\\}$, 则 $M \\cap N$ 的结果是什么?",
+        "input": "",
+        "output": "解: $M=\\{x \\mid-1<x<3\\}, N=\\{x \\mid-2<x<1\\}$,\n\n则 $M \\cap N=\\{x \\mid-1<x<1\\}$. "
+    },
+    {
+        "instruction": "两位男同学和两位女同学随机排成一列, 则两位女同学相邻的概率是多少?",
+        "input": "",
+        "output": "解: 两位男同学和两位女同学排成一列, 因为男生和女生人数相等, 两位女生相邻与不相邻的排法种数相同, 所以两位女生相邻与不相邻的概率均是 $\\frac{1}{2}$."
+    },
+    {
+        "instruction": "3. (5 分) 为美化环境, 从红、黄、白、紫 4 种颜色的花中任选 2 种花种在一个花坛中, 余下的 2 种花种在另一个花坛中, 则红色和紫色的花不在同一花坛的概率是多少?",
+        "input": "",
+        "output": "解: 从红、黄、白、紫 4 种颜色的花中任选 2 种花种在一个花坛中, 余下的 2 种花种在另一个花坛中, 有 $C_{4}^{2}=6$ 种方法, 红色和紫色的花在同一花坛 , 有 2 种方法, 红色和紫色的花不在同一花坛, 有 4 种方法, 所以所求的概率为 $\\frac{4}{6}=\\frac{2}{3}$.\n\n另解: 由列举法可得, 红、黄、白、紫记为 $1,2,3,4$,\n\n即有 $(12,34),(13,24),(14,23),(23,14),(24,13),(34,12)$\n\n则 $P=\\frac{4}{6}=\\frac{2}{3}$."
+    },
+    {
+        "instruction": "8. 下列函数中哪一个的最小值为 4？请给出具体分析过程。",
+        "input": "",
+        "output": "解析: \n\n对于 $y=x^{2}+2 x+4$, 可以将其重写为 $y=(x+1)^{2}+3$. 因此，$y \\geq 3$. 这个函数的最小值不是 4, 所以不符合条件.\n\n对于 $y=|\\sin x|+\\frac{4}{|\\sin x|}$, 我们可以令 $t=|\\sin x|$ 并注意到 $t \\in [0,1]$. 因此，$y=t+\\frac{4}{t}$. 根据对勾函数的性质，当 $t=1$ 时，$y_{\\text {min }}=5$, 所以这个函数也不符合条件.\n\n对于 $y=2^{x}+2^{2-x}$, 我们可以令 $t=2^{x}>0$. 因此，$y=t+\\frac{4}{t} \\geq 2 \\sqrt{t \\cdot \\frac{4}{t}}=2 \\times 2=4$, 当且仅当 $t=2$ 时取等. 这个函数的最小值为 4, 符合条件.\n\n对于 $y=\\ln x+\\frac{4}{\\ln x}$, 我们可以令 $t=\\ln x$. 因此，$y=t+\\frac{4}{t}$. 根据对勾函数的性质，这个函数的取值范围是 $(-\\infty,-4] \\cup[4,+\\infty)$, 所以它的最小值不是 4, 不符合条件."
+    },
+    {
+        "instruction": "已知 $F$ 是双曲线 $C: \\frac{x^{2}}{4}-\\frac{y^{2}}{5}=1$ 的一个焦点, 点 $P$ 在 $C$ 上, $O$ 为坐标原点, 若 $|O P|=|O F|$，则 $\\triangle O P F$ 的面积是多少?",
+        "input": "",
+        "output": "解: 设点 $P\\left(x_{0}, y_{0}\\right)$, 则 $\\frac{x_{0}^{2}}{4}-\\frac{y_{0}^{2}}{5}=1$ (1). 又 $|O P|=|O F|=\\sqrt{4+5}=3$ ，因此有 $x_{0}^{2}+y_{0}^{2}=9$ (2). 由 (1)(2) 得 $y_{0}^{2}=\\frac{25}{9}$, 即 $\\left|y_{0}\\right|=\\frac{5}{3}$, 因此 $\\triangle O P F$ 的面积为 $S_{\\triangle O P F}=\\frac{1}{2}|O F| \\cdot\\left|y_{0}\\right|=\\frac{1}{2} \\times 3 \\times \\frac{5}{3}=\\frac{5}{2}$."
+    },
+    {
+        "instruction": "在新冠肺炎疫情防控期间，某超市开通网上销售业务，每天能完成1200份订单的配货。由于订单量大幅增加，导致订单积压。为解决困难，许多志愿者踊跃报名参加配货工作。已知该超市某日积压500份订单未配货，预计第二天的新订单超过1600份的概率为0.05，志愿者每人每天能完成50份订单的配货。为使第二天完成积压订单及当日订单的配货的概率不小于0.95，则至少需要多少名志愿者？",
+        "input": "",
+        "output": "解: 由题意, 第二天新增订单数为 $500+1600-1200=900$,\n\n故需要志愿者 $\\frac{900}{50}=18$ 名."
+    },
+    {
+        "instruction": "设 $z=\\mathrm{i}(2+\\mathrm{i})$ ，则 $\\bar{z}$ 的值是多少?",
+        "input": "",
+        "output": "解: $z=\\mathrm{i}(2+\\mathrm{i})=2 \\mathrm{i}+\\mathrm{i}^{2}=-1+2 \\mathrm{i}$,\n\n所以 $\\bar{z}=-1-2 i$."
+    },
+    {
+        "instruction": "11. (5 分) 函数 $\\mathrm{f}(\\mathrm{x})=\\cos 2 x+6 \\cos \\left(\\frac{\\pi}{2}-\\mathrm{x}\\right)$ 的最大值是多少?",
+        "input": "",
+        "output": "解: 函数 $\\mathrm{f}(\\mathrm{x})=\\cos 2 x+6 \\cos \\left(\\frac{\\pi}{2}-\\mathrm{x}\\right)$\n\n$=1-2 \\sin ^{2} x+6 \\sin x$,\n\n令 $t=\\sin x(-1 \\leqslant t \\leqslant 1) ，$\n\n可得函数 $y=-2 t^{2}+6 t+1$\n\n$=-2\\left(t-\\frac{3}{2}\\right)^{2}+\\frac{11}{2}$\n\n由 $\\frac{3}{2} \\notin[-1,1]$, 可得函数在 $[-1,1]$ 递增,\n\n即有 $t=1$ 即 $x=2 k \\pi+\\frac{\\pi}{2}, k \\in Z$ 时, 函数取得最大值 5 ."
+    },
+    {
+        "instruction": "2. （5 分）设复数 $z$ 满足 $z+i=3-i$, 则 $\\bar{z}$ 的值是多少?",
+        "input": "",
+        "output": "解: $\\because$ 复数 $z$ 满足 $z+i=3-\\mathrm{i}$,\n\n$\\therefore z=3-2 i$, $\\therefore \\bar{z}=3+2 i$"
+    },
+    {
+        "instruction": "已知向量 $\\boldsymbol{a}=(2,3), \\boldsymbol{b}=(3,2)$, 则 $|\\boldsymbol{a}-\\boldsymbol{b}|$ 的值是多少?",
+        "input": "",
+        "output": "解: 由已知, $\\boldsymbol{a}-\\boldsymbol{b}=(2,3)-(3,2)=(-1,1)$,\n\n所以 $|\\boldsymbol{a}-\\boldsymbol{b}|=\\sqrt{(-1)^{2}+1^{2}}=\\sqrt{2}$."
+    },
+    {
+        "instruction": "10. (5 分) 等轴双曲线 $C$ 的中心在原点, 焦点在 $x$ 轴上, $C$ 与抛物线 $y^{2}=16 x$ 的准线交于点 $A$ 和点 $B$, 已知 $|AB|=4 \\sqrt{3}$, 求 $C$ 的实轴长是多少?",
+        "input": "",
+        "output": "解：设等轴双曲线 $c: x^{2}-y^{2}=a^{2}(a>0)$,\n\n抛物线 $y^{2}=16 x$ 的准线 I: $x=-4$,\n\n因为 $\\mathrm{C}$ 与抛物线 $\\mathrm{y}^{2}=16 \\mathrm{x}$ 的准线 $1: \\mathrm{x}=-4$ 交于 $\\mathrm{A}, \\mathrm{B}$ 两点, 并且 $|\\mathrm{AB}|=4 \\sqrt{3}$,\n\n所以可以确定点 A 和 B 的坐标分别为 $(-4,2 \\sqrt{3})$ 和 $(-4,-2 \\sqrt{3})$,\n\n将点 A 的坐标代入双曲线方程得 $a^{2}=(-4)^{2}-(2 \\sqrt{3})^{2}=4$,\n\n因此得到 $a=2$, 所以实轴长为 $2 a=4$."
+    },
+    {
+        "instruction": "12. (5 分) 已知 $f(x)$ 是定义域为 $(-\\infty,+\\infty)$ 的奇函数，满足 $f(1-x)=f(1+x)$。若 $f(1)=2$，则求 $f(1)+f(2)+f(3)+\\ldots+f(50)$ 的值。",
+        "input": "",
+        "output": "解: $\\because f(x)$ 是奇函数, 且 $f(1-x)=f(1+x)$,\n\n$\\therefore f(1-x)=f(1+x)=-f(x-1), f(0)=0$,\n\n则 $f(x+2)=-f(x)$, 则 $f(x+4)=-f(x+2)=f(x)$,\n\n即函数 $f(x)$ 是周期为 4 的周期函数,\n\n$\\because f(1)=2$,\n\n$\\therefore f(2)=f(0)=0, f(3)=f(1-2)=f(-1)=-f(1)=-2$,\n\n$f(4)=f(0)=0$\n\n则 $f(1)+f(2)+f(3)+f(4)=2+0-2+0=0$,\n\n则 $f(1)+f(2)+f(3)+\\ldots+f(50)=12[f(1)+f(2)+f(3)+f(4)]+f(49)$\n\n$+f(50)$\n\n$=f(1)+f(2)=2+0=2$."
+    },
+    {
+        "instruction": "生物实验室有 5 只兔子, 其中只有 3 只测量过某项指标, 若从这 5 只兔子中随机取出 3 只, 则恰有 2 只测量过该指标的概率是多少?",
+        "input": "",
+        "output": "解: 设其中做过测试的 3 只兔子为 $a, b, c$, 剩余的 2 只为 $A, B$。从这 5 只中任取 3 只的所有取法有 $\\{a, b, c\\}, \\{a, b, A\\}, \\{a, b, B\\}, \\{a, c, A\\}, \\{a, c, B\\}, \\{a, A, B\\}$，$\\{b, c, A\\}, \\{b, c, B\\}, \\{b, A, B\\}, \\{c, A, B\\}$ 共 10 种。其中恰有 2 只做过测试的取法有 $\\{a, b, A\\}, \\{a, b, B\\}, \\{a, c, A\\}, \\{a, c, B\\}, \\{b, c, A\\}, \\{b, c, B\\}$ 共 6 种。\n\n所以恰有 2 只做过测试的概率为 $\\frac{6}{10}=\\frac{3}{5}$。"
+    },
+    {
+        "instruction": "在 “一带一路” 知识测验后, 甲、乙、丙三人对成绩进行预测. 甲说他的成绩比乙高，乙说丙的成绩比他和甲的都高，而丙则认为他的成绩比乙高。已知三人的成绩互不相同且只有一个人预测正确，请问三人按成绩由高到低的次序是什么？",
+        "input": "",
+        "output": "若甲预测正确, 则乙、丙预测错误, 这意味着甲的成绩确实比乙高，而丙的成绩并不比乙和甲都高。因此，三人的成绩从高到低依次为：甲, 乙, 丙。若乙的预测正确，则丙的成绩应该比他和甲的都高，但这样会导致丙的预测也正确，这与题目中只有一个人预测正确的条件矛盾。最后，如果丙的预测是正确的，那么他的成绩确实比乙高，而由于甲的预测错误，所以乙的成绩应该比甲高，即丙比甲、乙的成绩都高，但这又导致了乙的预测也是正确的，同样不符合题意。因此，只有当甲的预测正确时，才满足题目条件。"
+    },
+    {
+        "instruction": "6. 计算 $\\cos ^{2} \\frac{\\pi}{12}-\\cos ^{2} \\frac{5 \\pi}{12}$ 的值。",
+        "input": "",
+        "output": "解: \n\n$\\cos ^{2} \\frac{\\pi}{12}-\\cos ^{2} \\frac{5 \\pi}{12}=\\cos ^{2} \\frac{\\pi}{12}-\\cos ^{2}\\left(\\frac{\\pi}{2}-\\frac{\\pi}{12}\\right)=\\cos ^{2} \\frac{\\pi}{12}-\\sin ^{2} \\frac{\\pi}{12}=\\cos \\frac{\\pi}{6}=\\frac{\\sqrt{3}}{2}$."
+    },
+    {
+        "instruction": "10. (5 分) 已知函数 $f(x)=\\left\\{\\begin{array}{l}2^{x-1}-2, x \\leqslant 1 \\\\ -\\log _{2}(x+1), x>1\\end{array}\\right.$, 且 $f(a)=-3$, 则 $f(6-a)$ 的值是多少?",
+        "input": "",
+        "output": "解: 由题意, 当 $a \\leqslant 1$ 时, 方程 $2^{a-1}-2=-3$ 没有实数解;\n\n当 $a>1$ 时, 解方程 $-\\log _{2}(a+1)=-3$, 得到 $\\alpha=7$,\n\n因此, $f(6-a)=f(-1)=2^{-1-1}-2=-\\frac{7}{4}$."
+    },
+    {
+        "instruction": "3. （5 分) 设 $z=\\frac{1}{1+i}+i$, 则 $|z|$的值是多少?",
+        "input": "",
+        "output": "解: $z=\\frac{1}{1+i}+i=\\frac{1-i}{(1+i)(1-i)}+i=\\frac{1}{2}+\\frac{1}{2} i$.\n\n故 $|z|=\\sqrt{\\frac{1}{4}+\\frac{1}{4}}=\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+        "instruction": "9. （5 分）甲、乙、丙、丁四位同学一起去问老师询问成语竞赛的成绩。老师说：你们四人中有 2 位优秀，2 位良好，我现在给甲看乙、丙的成绩，给乙看丙的成绩，给丁看甲的成绩。看后甲对大家说：我还是不知道我的成绩。根据以上信息，请分析哪些同学可以知道自己的成绩。",
+        "input": "",
+        "output": "解：四人所知只有自己看到, 老师所说及最后甲说话,\n\n- 甲不知自己的成绩 $\\rightarrow$ 乙丙必有一优一良（若为两优，甲会知道自己的成绩；若是两良，甲也会知道自己成绩）\n- 乙看到了丙的成绩，因此可以推断出自己的成绩\n- 丁看到甲、丁也为一优一良，由于甲不知道自己成绩，说明乙丙是一优一良，则甲丁也是一优一良。丁看到甲成绩后，可以根据这一点推断出自己的成绩\n\n综上所述，乙和丁可以知道自己的成绩。"
+    },
+    {
+        "instruction": "6. 设 $f(x)$ 为奇函数, 且当 $x \\geq 0$ 时, $f(x)=e^{x}-1$, 则当 $x<0$ 时, $f(x)$ 的表达式是什么?",
+        "input": "",
+        "output": "解: $\\because f(x)$ 是奇函数, 当 $x<0$ 时, $-x>0$, 因此有 $f(-x)=\\mathrm{e}^{-x}-1=-f(x)$. 由此可得 $f(x)=-\\mathrm{e}^{-x}+1$."
+    },
+    {
+        "instruction": "若 $\\bar{z}(1+i)=1-i$, 则 $z$的值是多少?",
+        "input": "",
+        "output": "解: 因为 $\\bar{z}=\\frac{1-i}{1+i}=\\frac{(1-i)^{2}}{(1+i)(1-i)}=\\frac{-2 i}{2}=-i$, 所以 $z=i$."
+    },
+    {
+        "instruction": "6. (5 分) 函数 $f(x)=\\frac{1}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right)+\\cos \\left(x-\\frac{\\pi}{6}\\right)$ 的最大值是多少?",
+        "input": "",
+        "output": "解：函数 $\\mathrm{f}(\\mathrm{x})=\\frac{1}{5} \\sin \\left(\\mathrm{x}+\\frac{\\pi}{3}\\right)+\\cos \\left(x-\\frac{\\pi}{6}\\right)=\\frac{1}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right)+\\cos$ $\\left(-x+\\frac{\\pi}{6}\\right)=\\frac{1}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right)+\\sin \\left(x+\\frac{\\pi}{3}\\right)$ $=\\frac{6}{5} \\sin \\left(x+\\frac{\\pi}{3}\\right) \\leqslant \\frac{6}{5}$."
+    },
+    {
+        "instruction": "2. （5 分) 平面向量 $\\vec{a}, \\vec{b}$, 已知 $\\vec{a}=(4,3), 2 \\vec{a}+\\vec{b}=(3,18)$，则 $\\vec{a}, \\vec{b}$ 夹角的余弦值是多少?",
+        "input": "",
+        "output": "解: 设 $\\vec{b}=(x, y)$,\n\n$\\because a=(4,3), 2 a+b=(3,18)$,\n\n$\\therefore \\vec{b}=(-5,12)$\n\n$\\therefore \\cos \\theta=\\frac{-20+36}{5 \\times 13}$\n\n$=\\frac{16}{65}$"
+    },
+    {
+        "instruction": "10. (5 分) 设 $F$ 为抛物线 $C: y^{2}=3 x$ 的焦点, 过 $F$ 且倾斜角为 $30^{\\circ}$ 的直线交于 $C$ 于 $A, B$ 两点, 则 $|A B|$的值是多少?",
+        "input": "",
+        "output": "解: 由 $y^{2}=3 x$ 得其焦点 $F\\left(\\frac{3}{4}, 0\\right)$, 准线方程为 $x=-\\frac{3}{4}$.\n\n则过抛物线 $y^{2}=3 x$ 的焦点 $F$ 且倾斜角为 $30^{\\circ}$ 的直线方程为 $y=\\tan 30^{\\circ}\\left(x-\\frac{3}{4}\\right)=\\frac{\\sqrt{3}}{3} \\left(x-\\frac{3}{4}\\right)$\n\n代入抛物线方程, 消去 $y$, 得 $16 x^{2}-168 x+9=0$.\n\n设 $A\\left(x_{1}, y_{1}\\right), B\\left(x_{2}, y_{2}\\right)$\n\n则 $\\mathrm{x}_{1}+\\mathrm{x}_{2}=\\frac{168}{16}=\\frac{21}{2}$,\n\n所以 $|A B|=x_{1}+\\frac{3}{4}+x_{2}+\\frac{3}{4}=\\frac{3}{4}+\\frac{3}{4}+\\frac{21}{2}=12$."
+    },
+    {
+        "instruction": "1. (5 分) 已知集合 $A=\\{x \\mid x-1 \\geqslant 0\\}, B=\\{0,1,2\\}$, 则 $A \\cap B$ 的结果是什么?",
+        "input": "",
+        "output": "解: $\\because A=\\{x \\mid x-1 \\geqslant 0\\}=\\{x \\mid x \\geqslant 1\\}, B=\\{0,1,2\\}$,\n\n$\\therefore A \\cap B=\\{x \\mid x \\geqslant 1\\} \\cap\\{0,1,2\\}=\\{1,2\\}$."
+    },
+    {
+        "instruction": "3. （5 分）已知复数 $z$ 满足 $(z-1) i=1+i$, 则 $z$ 的值是多少?",
+        "input": "",
+        "output": "解：由 $(z-1) i=1+i$ ，得 $z-1=\\frac{1+i}{i}=\\frac{-i(1+i)}{-i^{2}}=1-i$, $\\therefore \\mathrm{z}=2-\\mathrm{i}$."
+    },
+    {
+        "instruction": "2. (5 分) 若为 $a$ 实数, 且 $\\frac{2+a i}{1+i}=3+i$, 则 $a$ 的值是多少?",
+        "input": "",
+        "output": "解：由 $\\frac{2+a i}{1+i}=3+i$, 得 $2+a i=(1+i)(3+i)=2+4 i$,\n\n则 $a=4$."
+    },
+    {
+        "instruction": "2. (5 分) 计算 $(1+i)(2+i)$ 的结果是什么?",
+        "input": "",
+        "output": "解: 原式 $=2-1+3 i=1+3 i$."
+    },
+    {
+        "instruction": "当 $x=1$ 时, 函数 $f(x)=a \\ln x+\\frac{b}{x}$ 取得最大值 -2 , 则 $f^{\\prime}(2)$ 的值是多少?",
+        "input": "",
+        "output": "解: 因为函数 $f(x)$ 定义域为 $(0,+\\infty)$, 所以依题可知, $f(1)=-2, f^{\\prime}(1)=0$, 而 $f^{\\prime}(x)=\\frac{a}{x}-\\frac{b}{x^{2}}$, 所以 $b=-2, a-b=0$, 即 $a=-2, b=-2$, 所以 $f^{\\prime}(x)=-\\frac{2}{x}+\\frac{2}{x^{2}}$, 因此函数 $f(x)$ 在 $(0,1)$ 上递增, 在 $(1,+\\infty)$ 上递减, $x=1$ 时取最大值, 满足题意, 即有 $f^{\\prime}(2)=-1+\\frac{1}{2}=-\\frac{1}{2}$"
+    },
+    {
+        "instruction": "6. (5 分) 若 $\\tan \\theta=\\frac{1}{3}$, 则 $\\cos 2 \\theta$的值是多少?",
+        "input": "",
+        "output": "解: $\\because \\tan \\theta=\\frac{1}{3}$,\n\n$\\therefore \\cos 2 \\theta=2 \\cos ^{2} \\theta-1=\\frac{2}{1+\\tan ^{2} \\theta}-1=\\frac{2}{1+\\frac{1}{9}}-1=\\frac{4}{5}$."
+    },
+    {
+        "instruction": "5. (5 分) 若某群体中的成员只用现金支付的概率为 0.45 , 既用现金支付也用非现金支付的概率为 0.15 , 则不用现金支付的概率是多少?",
+        "input": "",
+        "output": "解：某群体中的成员只用现金支付, 既用现金支付也用非现金支付, 不用现金支付，是互斥事件，\n\n所以不用现金支付的概率为: $1-0.45-0.15=0.4$."
+    },
+    {
+        "instruction": "4. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $b=2, B=\\frac{\\pi}{6}, C=$ $\\frac{\\pi}{4}$, 求 $\\triangle A B C$ 的面积是多少?",
+        "input": "",
+        "output": "解： $\\because b=2, B=\\frac{\\pi}{6}, C=\\frac{\\pi}{4}$,\n\n$\\therefore$ 由正弦定理 $\\frac{b}{\\sin B}=\\frac{c}{\\sin C}$ 得: $c=\\frac{b \\sin C}{\\sin B}=\\frac{2 \\times \\frac{\\sqrt{2}}{2}}{\\frac{1}{2}}=2 \\sqrt{2}, A=\\frac{7 \\pi}{12}$,\n\n$\\therefore \\sin A=\\sin \\left(\\frac{\\pi}{2}+\\frac{\\pi}{12}\\right)=\\cos \\frac{\\pi}{12}=\\frac{\\sqrt{2}+\\sqrt{6}}{4}$,\n\n则 $S_{\\triangle A B C}=\\frac{1}{2} b c \\sin A=\\frac{1}{2} \\times 2 \\times 2 \\sqrt{2} \\times \\frac{\\sqrt{2}+\\sqrt{6}}{4}=\\sqrt{3}+1$."
+    },
+    {
+        "instruction": "设 $f(x)$ 是定义域为 $\\boldsymbol{R}$ 的奇函数, 且 $f(1+x)=f(-x)$. 若 $f\\left(-\\frac{1}{3}\\right)=\\frac{1}{3}$, 则 $f\\left(\\frac{5}{3}\\right)$的值是多少?",
+        "input": "",
+        "output": "解: 由题意可得：$f\\left(\\frac{5}{3}\\right)=f\\left(1+\\frac{2}{3}\\right)=f\\left(-\\frac{2}{3}\\right)=-f\\left(\\frac{2}{3}\\right)$,\n\n而 $f\\left(\\frac{2}{3}\\right)=f\\left(1-\\frac{1}{3}\\right)=f\\left(\\frac{1}{3}\\right)=-f\\left(-\\frac{1}{3}\\right)=-\\frac{1}{3}$,\n\n故 $f\\left(\\frac{5}{3}\\right)=\\frac{1}{3}$."
+    },
+    {
+        "instruction": "4. (5 分) 曲线 $y=x^{3}-2 x+1$ 在点 $(1,0)$ 处的切线方程是什么?",
+        "input": "",
+        "output": "解：验证知, 点 $(1,0)$ 在曲线上\n\n$\\because y=x^{3}-2 x+1$\n\n$y^{\\prime}=3 x^{2}-2$, 所以 $k=\\left.y^{\\prime}\\right|_{x-1}=1$, 得切线的斜率为 1 , 所以 $k=1$;\n\n所以曲线 $y=f(x)$ 在点 $(1,0)$ 处的切线方程为:\n\n$y-0=1 \\times(x-1)$ ，即 $y=x-1$."
+    },
+    {
+        "instruction": "4. (5 分) 已知椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{4}=1$ 的一个焦点为 $(2,0)$, 则 $C$ 的离心率是多少?",
+        "input": "",
+        "output": "解：椭圆 $C: \\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{4}=1$ 的一个焦点为 $(2,0)$,\n\n可得 $a^{2}-4=4$, 解得 $a=2 \\sqrt{2}$,\n\n$\\because c=2$,\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\frac{2}{2 \\sqrt{2}}=\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+        "instruction": "4. 分别统计了甲、乙两位同学 16 周的各周课外体育运动时长 (单位: $\\mathrm{h}$ ), 得如下茎叶图:\n\n\\begin{tabular}{|c|c|c|}\n\\hline 甲 & & 乙 \\\\\n\\hline 61 & 5. & . \\\\\n\\hline 8530 & 6. & 3 \\\\\n\\hline 7532 & 7. & 46 \\\\\n\\hline 6421 & 8. & 12256666 \\\\\n\\hline \\multirow[t]{2}{*}{42} & 9. & 0238 \\\\\n\\hline & 10. & 1 \\\\\n\\hline\n\\end{tabular}\n\n下列结论中哪一个错误？请指出并解释原因。",
+        "input": "",
+        "output": "解: 对于甲同学周课外体育运动时长的样本中位数为 $\\frac{7.3+7.5}{2}=7.4$，因此 A 选项结论正确。\n\n对于乙同学课外体育运动时长的样本平均数计算如下:\n\n$$\n\\frac{6.3+7.4+7.6+8.1+8.2+8.2+8.5+8.6+8.6+8.6+8.6+9.0+9.2+9.3+9.8+10.1}{16}=8.50625>8\n$$\n\n因此 B 选项结论正确。\n\n对于甲同学周课外体育运动时长大于 8 的概率的估计值为 $\\frac{6}{16}=0.375<0.4$，所以 C 选项结论错误。\n\n对于乙同学周课外体育运动时长大于 8 的概率的估计值为 $\\frac{13}{16}=0.8125>0.6$，\n\n因此 D 选项结论正确。综上所述，C 选项是错误的。"
+    },
+    {
+        "instruction": "已知曲线 $y=a \\mathrm{e}^{x}+x \\ln x$ 在点 $(1, a e)$ 处的切线方程为 $y=2 x+b$, 求 $a$ 和 $b$ 的值。",
+        "input": "",
+        "output": "解: 由题意得，曲线在给定点处的导数即为切线斜率。首先求出函数的导数：$y^{\\prime}=a e^{x}+\\ln x+1$,\n\n将点 $(1, a e)$ 的横坐标代入导数表达式中得到切线斜率 $k=\\left.y^{\\prime}\\right|_{x=1}=a e+1=2$\n\n解得：$\\therefore a=e^{-1}$\n\n接下来，利用已知的切线方程和点 $(1, 1)$（注意这里应该是 $(1, ae)=(1, 1)$ 因为 $a=e^{-1}$），代入 $y=2 x+b$ 得到 $2 \\times 1 + b = 1$\n\n解得：$b=-1$"
+    },
+    {
+        "instruction": "已知 $(1-i)^{2} z=3+2 i$, 则 $z$的值是多少?",
+        "input": "",
+        "output": "解: $(1-i)^{2} z=-2 i z=3+2 i$,\n\n$z=\\frac{3+2 i}{-2 i}=\\frac{(3+2 i) \\cdot i}{-2 i \\cdot i}=\\frac{-2+3 i}{2}=-1+\\frac{3}{2} i$"
+    },
+    {
+        "instruction": "11. （5 分) 若函数 $f(x)=k x-\\ln x$ 在区间 $(1,+\\infty)$ 单调递增, 则 $k$ 的取值范围是什么?",
+        "input": "",
+        "output": "解: $f^{\\prime}(x)=k-\\frac{1}{x}$,\n\n$\\because$ 函数 $\\mathrm{f}(\\mathrm{x})=\\mathrm{kx}-\\ln x$ 在区间 $(1,+\\infty)$ 单调递增,\n\n$\\therefore f^{\\prime}(x) \\geqslant 0$ 在区间 $(1,+\\infty)$ 上恒成立.\n\n$\\therefore \\mathrm{k} \\geqslant \\frac{1}{\\mathrm{x}}$,\n\n而 $y=\\frac{1}{x}$ 在区间 $(1,+\\infty)$ 上单调递减,\n\n$\\therefore k \\geqslant 1$.\n\n$\\therefore \\mathrm{k}$ 的取值范围是: $[1,+\\infty)$. "
+    },
+    {
+        "instruction": "5. (5 分) 从 2 名男同学和 3 名女同学中任选 2 人参加社区服务, 则选中的 2 人都是女同学的概率是多少?",
+        "input": "",
+        "output": "解:（适合理科生）从 2 名男同学和 3 名女同学中任选 2 人参加社区服务, 共有 $\\mathrm{C}_{5}{ }^{2}=10$ 种, 其中全是女生的有 $\\mathrm{C}_{3}{ }^{2}=3$ 种, 中的 2 人都是女同学的概率 $P=\\frac{3}{10}=0.3$,\n\n（适合文科生）设 2 名男生为 $a, b, 3$ 名女生为 $A, B, C$, 则任选 2 人的种数为 $a b, a A, a B, a C, b A, b B, B c, A B, A C, B C$ 共 10 种, 其中全是女生为 $A B, A C, B C$ 共 3 种, 中的 2 人都是女同学的概率 $P=\\frac{3}{10}=0.3$."
+    },
+    {
+        "instruction": "5. (5 分) 已知圆柱的上、下底面的中心分别为 $\\mathrm{O}_{1}, \\mathrm{O}_{2}$, 过直线 $\\mathrm{O}_{1} \\mathrm{O}_{2}$ 的平面截该圆柱所得的截面是面积为 8 的正方形，则该圆柱的表面积是多少?",
+        "input": "",
+        "output": "解：设圆柱的底面直径为 $2 R$, 则高为 $2 R$,\n\n圆柱的上、下底面的中心分别为 $\\mathrm{O}_{1}, \\mathrm{O}_{2}$,\n\n过直线 $\\mathrm{O}_{1} \\mathrm{O}_{2}$ 的平面截该圆柱所得的截面是面积为 8 的正方形,\n\n可得: $4 R^{2}=8$, 解得 $R=\\sqrt{2}$,\n\n则该圆柱的表面积为: $\\pi \\cdot(\\sqrt{2})^{2} \\times 2+2 \\sqrt{2} \\pi \\times 2 \\sqrt{2}=12 \\pi$."
+    },
+    {
+        "instruction": "11. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$. 若 $\\triangle A B C$ 的面积 为 $\\frac{a^{2}+b^{2}-c^{2}}{4}$, 则角 $C$ 的值是多少?",
+        "input": "",
+        "output": "解: $\\because \\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$.\n\n$\\triangle A B C$ 的面积为 $\\frac{a^{2}+b^{2}-c^{2}}{4}$, $\\therefore S_{\\triangle A B C}=\\frac{1}{2} a b \\sin C=\\frac{a^{2}+b^{2}-c^{2}}{4}$\n\n$\\therefore \\sin C=\\frac{a^{2}+b^{2}-c^{2}}{2 a b}=\\cos C$\n\n$\\because 0<\\mathrm{C}<\\pi, \\quad \\therefore \\mathrm{C}=\\frac{\\pi}{4}$"
+    },
+    {
+        "instruction": "已知单位向量 $\\boldsymbol{a}, \\boldsymbol{b}$ 的夹角为 $60^{\\circ}$, 则在下列向量中, 与 $\\boldsymbol{b}$ 垂直的是哪个向量?",
+        "input": "",
+        "output": "解: 由已知可得: $\\vec{a} \\cdot \\vec{b}=|\\vec{a}| \\cdot|\\vec{b}| \\cdot \\cos 60^{\\circ}=1 \\times 1 \\times \\frac{1}{2}=\\frac{1}{2}$.\n\n因为 $(\\vec{a}+2 \\vec{b}) \\cdot \\vec{b}=\\vec{a} \\cdot \\vec{b}+2 \\vec{b}^{2}=\\frac{1}{2}+2 \\times 1=\\frac{5}{2} \\neq 0$, 所以 $\\vec{a}+2 \\vec{b}$ 不与 $\\boldsymbol{b}$ 垂直;\n\n因为 $(2 \\vec{a}+\\vec{b}) \\cdot \\vec{b}=2 \\vec{a} \\cdot \\vec{b}+\\vec{b}^{2}=2 \\times \\frac{1}{2}+1=2 \\neq 0$, 所以 $2 \\vec{a}+\\vec{b}$ 不与 $\\boldsymbol{b}$ 垂直;\n\n因为 $(\\vec{a}-2 \\vec{b}) \\cdot \\vec{b}=\\vec{a} \\cdot \\vec{b}-2 \\vec{b}^{2}=\\frac{1}{2}-2 \\times 1=-\\frac{3}{2} \\neq 0$, 所以 $\\vec{a}-2 \\vec{b}$ 不与 $\\boldsymbol{b}$ 垂直;\n\n因为 $(2 \\vec{a}-\\vec{b}) \\cdot \\vec{b}=2 \\vec{a} \\cdot \\vec{b}-\\vec{b}^{2}=2 \\times \\frac{1}{2}-1=0$, 所以 $2 \\vec{a}-\\vec{b}$ 与 $\\boldsymbol{b}$ 垂直."
+    },
+    {
+        "instruction": "12. (5 分) 已知函数 $f(x)=x^{2}-2 x+a\\left(e^{x-1}+e^{-x+1}\\right)$ 有唯一零点, 则 $a$ 的值是多少?",
+        "input": "",
+        "output": "解: 因为 $f(x)=x^{2}-2 x+a\\left(e^{x-1}+e^{-x+1}\\right)=-1+(x-1)^{2}+a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ $=0$,\n\n所以函数 $f(x)$ 有唯一零点等价于方程 $1-(x-1)^{2}=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 有唯一解, 等价于函数 $y=1-(x-1)^{2}$ 的图象与 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的图象只有一个交点.\n\n(1)当 $a=0$ 时, $f(x)=x^{2}-2 x \\geqslant-1$, 此时有两个零点, 矛盾;\n\n(2)当 $a<0$ 时, 由于 $y=1-(x-1)^{2}$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递 减 且 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递减,\n\n所以函数 $y=1-(x-1)^{2}$ 的图象的最高点为 $A(1,1), y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的\n\n图象的最高点为 $B(1,2 a)$,\n\n由于 $2 a<0<1$, 此时函数 $y=1-(x-1)^{2}$ 的图象与 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的图象 有两个交点,矛盾;\n\n(3)当 $a>0$ 时, 由于 $y=1-(x-1)^{2}$ 在 $(-\\infty, 1)$ 上递增、在 $(1,+\\infty)$ 上递 减\n\n且 $y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 在 $(-\\infty, 1)$ 上递减、在 $(1,+\\infty)$ 上递增，\n\n所以函数 $y=1-(x-1)^{2}$ 的图象的最高点为 $A(1,1), y=a\\left(e^{x-1}+\\frac{1}{e^{x-1}}\\right)$ 的\n\n图象的最低点为 $B(1,2 a)$,\n\n由题可知点 $A$ 与点 $B$ 重合时满足条件, 即 $2 a=1$, 即 $a=\\frac{1}{2}$, 符合条件;\n\n综上所述, $a=\\frac{1}{2}$. "
+    },
+    {
+        "instruction": "6. （5 分) 设函数 $f(x)=x^{3}+(a-1) x^{2}+a x$. 若 $f(x)$ 为奇函数, 则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程是什么?",
+        "input": "",
+        "output": "解：函数 $f(x)=x^{3}+(a-1) x^{2}+a x$，若 $f(x)$ 为奇函数, 可得 $a=1$, 所以函数 $f(x)=x^{3}+x$, 可得 $f^{\\prime}(x)=3 x^{2}+1$,\n\n曲线 $\\mathrm{y}=\\mathrm{f}(\\mathrm{x})$ 在点 $(0,0)$ 处的切线的斜率为: 1 ,\n\n则曲线 $y=f(x)$ 在点 $(0,0)$ 处的切线方程为: $y=x$."
+    },
+    {
+        "instruction": "5. (5 分) 直线 I 经过椭圆的一个顶点和一个焦点, 若椭圆中心到 I 的距离为其短轴长的 $\\frac{1}{4}$, 则该椭圆的离心率是多少?",
+        "input": "",
+        "output": "解: 设椭圆的方程为: $\\frac{x^{2}}{a^{2}}+\\frac{y^{2}}{b^{2}}=1$, 直线 I 经过椭圆的一个顶点和一个焦点\n\n则直线方程为: $\\frac{x}{c}+\\frac{y}{b}=1$, 椭圆中心到 1 的距离为其短轴长的 $\\frac{1}{4}$,\n\n可得: $\\frac{1}{\\sqrt{\\frac{1}{c^{2}}+\\frac{1}{b^{2}}}}=\\frac{b}{2}$,\n\n$4=b^{2}\\left(\\frac{1}{c^{2}}+\\frac{1}{b^{2}}\\right)$\n\n$\\therefore \\frac{b^{2}}{c^{2}}=3$, $\\frac{a^{2}-c^{2}}{c^{2}}=3$\n\n$\\therefore \\mathrm{e}=\\frac{\\mathrm{c}}{\\mathrm{a}}=\\frac{1}{2}$"
+    },
+    {
+        "instruction": "8. 设 $a \\log _{3} 4=2$ ，则 $4^{-a}$的值是多少?",
+        "input": "",
+        "output": "解: 由 $a \\log _{3} 4=2$ 可得 $\\log _{3} 4^{a}=2$ ，所以 $4^{a}=9$,\n\n因此有 $4^{-a}=\\frac{1}{9}$."
+    },
+    {
+        "instruction": "12. (5 分) 已知函数 $f(x)=a x^{3}-3 x^{2}+1$, 若 $f(x)$ 存在唯一的零点 $x_{0}$, 且 $x_{0}>0$, 则实数 $\\mathrm{a}$ 的取值范围是什么?",
+        "input": "",
+        "output": "解: $\\because f(x)=a x^{3}-3 x^{2}+1$,\n\n$\\therefore f^{\\prime}(x)=3 a x^{2}-6 x=3 x(a x-2), f(0)=1$\n\n(1)当 $a=0$ 时, $f(x)=-3 x^{2}+1$ 有两个零点, 不成立;\n\n(2)当 $a>0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上有零点, 故不成立;\n\n(3)当 $a<0$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(0,+\\infty)$ 上有且只有一个零点;\n\n故 $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上没有零点;\n\n而当 $x=\\frac{2}{a}$ 时, $f(x)=a x^{3}-3 x^{2}+1$ 在 $(-\\infty, 0)$ 上取得最小值;\n\n故 $f\\left(\\frac{2}{a}\\right)=\\frac{8}{a^{2}}-3 \\cdot \\frac{4}{a^{2}}+1>0$;\n\n故 $a<-2$;\n\n综上所述，\n\n实数 $\\mathrm{a}$ 的取值范围是 $(-\\infty,-2)$."
+    },
+    {
+        "instruction": "11. $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $a \\sin A-b \\sin B=4 c \\sin C, \\cos A=-\\frac{1}{4}$, 则 $\\frac{b}{c}$的值是多少?",
+        "input": "",
+        "output": "解: 由已知及正弦定理可得 $a^{2}-b^{2}=4 c^{2}$, 由余弦定理推论可得\n\n$$\n-\\frac{1}{4}=\\cos A=\\frac{b^{2}+c^{2}-a^{2}}{2 b c}, \\therefore \\frac{c^{2}-4 c^{2}}{2 b c}=-\\frac{1}{4}, \\therefore \\frac{3 c}{2 b}=\\frac{1}{4}, \\therefore \\frac{b}{c}=\\frac{3}{2} \\times 4=6\n$$"
+    },
+    {
+        "instruction": "10. (5 分) 已知锐角 $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 且有 $23 \\cos ^{2} A+\\cos 2 A=0$ , $a=7, c=6$, 求 $b$的值。",
+        "input": "",
+        "output": "解: $\\because 23 \\cos ^{2} \\mathrm{~A}+\\cos 2 \\mathrm{~A}=23 \\cos ^{2} \\mathrm{~A}+2 \\cos ^{2} \\mathrm{~A}-1=0$, 即 $\\cos ^{2} \\mathrm{~A}=\\frac{1}{25}, \\mathrm{~A}$ 为锐角,\n\n$\\therefore \\cos A=\\frac{1}{5}$,\n\n又 $a=7, c=6$,\n\n根据余弦定理得: $a^{2}=b^{2}+c^{2}-2 b c \\bullet \\cos A$, 即 $49=b^{2}+36-\\frac{12}{5} b$,\n\n解得: $b=5$ 或 $b=-\\frac{13}{5}$ (舍去),\n\n则 $b=5$."
+    },
+    {
+        "instruction": "曲线 $y=2 \\sin x+\\cos x$ 在点 $(\\pi,-1)$ 处的切线方程是什么?",
+        "input": "",
+        "output": "解: 当 $x=\\pi$ 时, $y=2 \\sin \\pi+\\cos \\pi=-1$, 即点 $(\\pi,-1)$ 在曲线 $y=2 \\sin x+\\cos x$ 上. $\\because y^{\\prime}=2 \\cos x-\\sin x,\\left.\\therefore y^{\\prime}\\right|_{x=\\pi}=2 \\cos \\pi-\\sin \\pi=-2$, 则 $y=2 \\sin x+\\cos x$ 在点 $(\\pi,-1)$ 处的切线方程为 $y-(-1)=-2(x-\\pi)$, 即 $2 x+y-2 \\pi+1=0$."
+    },
+    {
+        "instruction": "7. (5 分) 在 $\\triangle A B C$ 中, 若 $\\cos \\frac{C}{2}=\\frac{\\sqrt{5}}{5}, B C=1, A C=5$, 则 $A B$的长度是多少?",
+        "input": "",
+        "output": "解: 在 $\\triangle \\mathrm{ABC}$ 中, $\\cos \\frac{\\mathrm{C}}{2}=\\frac{\\sqrt{5}}{5}, \\cos \\mathrm{C}=2 \\times\\left(\\frac{\\sqrt{5}}{5}\\right)^{2}-1=-\\frac{3}{5}$, $B C=1, A C=5$, 则 $A B=\\sqrt{B C^{2}+A C^{2}-2 B C \\cdot A C \\cos C}=\\sqrt{1+25+2 \\times 1 \\times 5 \\times \\frac{3}{5}}=\\sqrt{32}=4 \\sqrt{2}$."
+    },
+    {
+        "instruction": "4. （5 分）体积为 8 的正方体的顶点都在同一球面上, 则该球面的表面积是多少?",
+        "input": "",
+        "output": "解: 正方体体积为 8 , 可知其边长为 2 ,\n\n正方体的体对角线为 $\\sqrt{4+4+4}=2 \\sqrt{3}$,\n\n即为球的直径, 所以半径为 $\\sqrt{3}$,\n\n所以球的表面积为 $4 \\pi \\cdot(\\sqrt{3})^{2}=12 \\pi$."
+    },
+    {
+        "instruction": "7. (5 分) 下列函数中, 其图象与函数 $y=\\ln x$ 的图象关于直线 $\\mathrm{x}=1$ 对称的是哪个?",
+        "input": "",
+        "output": "解: 首先根据函数 $\\mathrm{y}=\\ln \\mathrm{x}$ 的图象,\n\n则: 函数 $\\mathrm{y}=\\ln \\mathrm{x}$ 的图象与 $\\mathrm{y}=\\ln (-\\mathrm{x})$ 的图象关于 $\\mathrm{y}$ 轴对称. 由于函数 $y=\\ln x$ 的图象关于直线 $x=1$ 对称.\n\n则: 把函数 $y=\\ln (-x)$ 的图象向右平移 2 个单位即可得到: $y=\\ln (2-x)$.\n\n即所求得解析式为: $y=\\ln (2-x)$. "
+    },
+    {
+        "instruction": "1. （5 分）已知集合 $M=\\{0,1 ， 2 ， 3 ， 4\\}, N=\\{1,3 ， 5\\}, P=M \\cap N$, 则 $P$ 的子集共有多少个?",
+        "input": "",
+        "output": "解: $\\because M=\\{0,1,2,3,4\\}, N=\\{1,3,5\\}$,\n\n$\\therefore P=M \\cap N=\\{1,3\\}$\n\n$\\therefore P$ 的子集共有 $2^{2}=4$"
+    },
+    {
+        "instruction": "5. (5 分) 已知 $S_{n}$ 是等差数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, 若 $a_{1}+a_{3}+a_{5}=3$, 则 $S_{5}$的值是多少?",
+        "input": "",
+        "output": "解: 由等差数列 $\\left\\{a_{n}\\right\\}$ 的性质, $a_{1}+a_{3}+a_{5}=3=3 a_{3}$, 解得 $a_{3}=1$.\n\n则 $S_{5}=\\frac{5\\left(a_{1}+a_{5}\\right)}{2}=5 a_{3}=5$."
+    },
+    {
+        "instruction": "2. （5 分）设 $(1+2 i)(a+i)$ 的实部与虚部相等, 其中 $a$ 为实数, 则 $a$ 等于多少?",
+        "input": "",
+        "output": "解: $(1+2 i)(a+i)=a-2+(2 a+1) i$ 的实部与虚部相等,\n\n可得： $a-2=2 a+1$,\n\n解得 $a=-3$."
+    },
+    {
+        "instruction": "6. 已知各项均为正数的等比数列 $\\left\\{a_{n}\\right\\}$ 的前 4 项和为 15 , 且 $a_{5}=3 a_{3}+4 a_{1}$, 则 $a_{3}$ 的值是多少?",
+        "input": "",
+        "output": "解: 设正数的等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$, 则有方程组 \\[\\begin{cases} a_{1}+a_{1} q+a_{1} q^{2}+a_{1} q^{3}=15, \\\\ a_{1} q^{4}=3 a_{1} q^{2}+4 a_{1} \\end{cases}\\] 解得 \\[\\begin{cases} a_{1}=1, \\\\ q=2 \\end{cases}\\] 因此 $a_{3}=a_{1} q^{2}=4$."
+    },
+    {
+        "instruction": "6. 已知圆 $x^{2}+y^{2}-6 x=0$, 过点 $(1,2)$ 的直线被该圆所截得的弦的长度的最小值是多少?",
+        "input": "",
+        "output": "解: 圆 $x^{2}+y^{2}-6 x=0$ 化为 $(x-3)^{2}+y^{2}=9$, 所以圆心 $C$ 坐标为 $C(3,0)$, 半径为 3 ,\n\n设 $P(1,2)$, 当过点 $P$ 的直线和直线 $C P$ 垂直时, 圆心到过点 $P$ 的直线的距离最大, 所求的弦长最短,\n\n根据弦长公式最小值为 $2 \\sqrt{9-|C P|^{2}}=2 \\sqrt{9-8}=2$."
+    },
+    {
+        "instruction": "2. （5 分）设 $z=\\frac{1-i}{1+i}+2 i$, 则 $|z|$的值是多少?",
+        "input": "",
+        "output": "解: $z=\\frac{1-i}{1+i}+2 i=\\frac{(1-i)(1-i)}{(1-i)(1+i)}+2 i=-i+2 i=i$,\n\n则 $|z|=1$."
+    },
+    {
+        "instruction": "12. (5 分) 过抛物线 $C: y^{2}=4 x$ 的焦点 $F$, 且斜率为 $\\sqrt{3}$ 的直线交 $C$ 于点 $M(M$ 在 $x$ 轴上方), 1 为 $C$ 的准线, 点 $N$ 在 $I$ 上, 且 $M N \\perp 1$, 则 $M$ 到直线 $N F$ 的距离是多少?",
+        "input": "",
+        "output": "解 抛物线 $C: y^{2}=4 x$ 的焦点 $F(1,0)$, 且斜率为 $\\sqrt{3}$ 的直线 $y=\\sqrt{3}(x-1)$. 可知: $\\left\\{\\begin{array}{l}y^{2}=4 x \\\\ y=\\sqrt{3}(x-1)\\end{array}\\right.$, 解得 $M(3,2 \\sqrt{3})$.\n\n可得 $N(-1,2 \\sqrt{3}), N F$ 的方程为: $y=-\\sqrt{3}(x-1)$, 即 $\\sqrt{3} x+y-\\sqrt{3}=0$,\n\n则 $M$ 到直线 NF 的距离为: $\\frac{|3 \\sqrt{3}+2 \\sqrt{3}-\\sqrt{3}|}{\\sqrt{3+1}}=2 \\sqrt{3}$."
+    },
+    {
+        "instruction": "8. (5 分) 某路口人行横道的信号灯为红灯和绿灯交替出现, 红灯持续时间为 40 秒。若一名行人来到该路口遇到红灯，则至少需要等待 15 秒才出现绿灯的概率是多少?",
+        "input": "",
+        "output": "解: $\\because$ 红灯持续时间为 40 秒，至少需要等待 15 秒才出现绿灯, $\\therefore$ 一名行人前 25 秒来到该路口遇到红灯,\n\n$\\therefore$ 至少需要等待 15 秒才出现绿灯的概率为 $\\frac{25}{40}=\\frac{5}{8}$."
+    },
+    {
+        "instruction": "5. 函数 $f(x)=2 \\sin x-\\sin 2 x$ 在 $[0,2 \\pi]$ 的零点个数是多少?",
+        "input": "",
+        "output": "解: 由 $f(x)=2 \\sin x-\\sin 2 x=2 \\sin x-2 \\sin x \\cos x=2 \\sin x(1-\\cos x)=0$, 得 $\\sin x=0$ 或 $\\cos x=1, \\because x \\in[0,2 \\pi], \\therefore x=0 、 \\pi$ 或 $2 \\pi . \\therefore f(x)$ 在 $[0,2 \\pi]$ 的零点个数是 3."
+    },
+    {
+        "instruction": "记 $S_{n}$ 为等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和. 若 $S_{2}=4, S_{4}=6$, 则 $S_{6}$的值是多少?",
+        "input": "",
+        "output": "解: $\\because S_{n}$ 为等比数列 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和,\n\n$\\therefore S_{2}, \\quad S_{4}-S_{2}, \\quad S_{6}-S_{4}$ 成等比数列\n\n$\\therefore S_{2}=4, \\quad S_{4}-S_{2}=6-4=2$\n\n$\\therefore S_{6}-S_{4}=1$\n\n$\\therefore S_{6}=1+S_{4}=1+6=7$"
+    },
+    {
+        "instruction": "4. (5 分) 已知向量 $\\vec{a}, \\vec{b}$ 满足 $|\\vec{a}|=1, \\vec{a} \\cdot \\vec{b}=-1$, 则 $\\vec{a} \\cdot(2 \\vec{a}-\\vec{b})$ 的值是多少?",
+        "input": "",
+        "output": "解: 向量 $\\vec{a}, \\vec{b}$ 满足 $|\\vec{a}|=1, \\vec{a} \\cdot \\vec{b}=-1$, 则 $\\vec{a} \\bullet(2 \\vec{a}-\\vec{b})=2 \\vec{a} \\cdot \\vec{a}-\\vec{a} \\cdot \\vec{b}=2+1=3$."
+    },
+    {
+        "instruction": "7. (5 分) 正三棱柱 $A B C-A_{1} B_{1} C_{1}$ 的底面边长为 2 , 侧棱长为 $\\sqrt{3}, D$ 为 $B C$ 中点, 则三棱雉 $A-B_{1} D C_{1}$ 的体积是多少?",
+        "input": "",
+        "output": "解: $\\because$ 正三棱柱 $A B C-A_{1} B_{1} C_{1}$ 的底面边长为 2 , 侧棱长为 $\\sqrt{3}, D$ 为 $B C$ 中点,\n\n$\\therefore$ 底面 $\\mathrm{B}_{1} \\mathrm{DC}_{1}$ 的面积: $\\frac{1}{2} \\times 2 \\times \\sqrt{3}=\\sqrt{3}$,\n\nA 到底面的距离就是底面正三角形的高: $\\sqrt{3}$.\n\n三棱雉 $A-B_{1} D C_{1}$ 的体积为: $\\frac{1}{3} \\times \\sqrt{3} \\times \\sqrt{3}=1$."
+    },
+    {
+        "instruction": "1. (5 分) 已知集合 $A=\\{1,2,3,4\\}, B=\\{2,4,6,8\\}$, 则 $A \\cap B$ 中元素的个数是多少?",
+        "input": "",
+        "output": "解: $\\because$ 集合 $A=\\{1,2,3,4\\}, B=\\{2,4,6,8\\}$,\n\n$\\therefore A \\cap B=\\{2,4\\}$\n\n$\\therefore A \\cap B$ 中元素的个数为 2 ."
+    },
+    {
+        "instruction": "若 $a \\in\\left(0, \\frac{\\pi}{2}\\right), \\tan 2 a=\\frac{\\cos a}{2-\\sin a}$, 则 $\\tan a$的值是多少?",
+        "input": "",
+        "output": "解: $\\because \\tan 2 a=\\frac{\\sin 2 a}{\\cos 2 a}=\\frac{2 \\sin a \\cos a}{1-2 \\sin ^{2} a}=\\frac{\\cos a}{2-\\sin a}$,\n\n$\\because a \\in\\left(0, \\frac{\\pi}{2}\\right), \\therefore \\cos a \\neq 0, \\therefore \\frac{2 \\sin a}{1-2 \\sin ^{2} a}=\\frac{1}{2-\\sin a}$, 解得 $\\sin a=\\frac{1}{4}$,\n\n$\\therefore \\cos a=\\sqrt{1-\\sin ^{2} a}=\\frac{\\sqrt{15}}{4}, \\therefore \\tan a=\\frac{\\sin a}{\\cos a}=\\frac{\\sqrt{15}}{15}$."
+    },
+    {
+        "instruction": "在 $\\triangle A B C$ 中, 已知 $\\cos C=\\frac{2}{3}, A C=4, B C=3$, 求 $\\tan B$ 的值。",
+        "input": "",
+        "output": "解: 设 $A B=c, B C=a, C A=b$\n\n$c^{2}=a^{2}+b^{2}-2 a b \\cos C=9+16-2 \\times 3 \\times 4 \\times \\frac{2}{3}=9$，因此 $c=3$\n\n$\\cos B=\\frac{a^{2}+c^{2}-b^{2}}{2 a c}=\\frac{1}{9}$，所以 $\\sin B=\\sqrt{1-\\left(\\frac{1}{9}\\right)^{2}}=\\frac{4 \\sqrt{5}}{9}$\n\n因此 $\\tan B=4 \\sqrt{5}$"
+    },
+    {
+        "instruction": "12. (5 分) 若函数 $f(x)=x-\\frac{1}{3} \\sin 2 x+a \\sin x$ 在 $(-\\infty,+\\infty)$ 单调递增, 则 $a$ 的取值范围是什么?",
+        "input": "",
+        "output": "解: 函数 $\\mathrm{f}(\\mathrm{x})=\\mathrm{x}-\\frac{1}{3} \\sin 2 x+a \\sin x$ 的导数为 $f^{\\prime}(x)=1-\\frac{2}{3} \\cos 2 x+a \\cos x$, 由题意可得 $f^{\\prime}(x) \\geqslant 0$ 恒成立，\n\n即为 $1-\\frac{2}{3} \\cos 2 x+a \\cos x \\geqslant 0$,\n\n即有 $\\frac{5}{3}-\\frac{4}{3} \\cos ^{2} x+\\operatorname{acos} x \\geqslant 0$ ，\n\n设 $t=\\cos x(-1 \\leqslant t \\leqslant 1)$ ， 即有 $5-4 t^{2}+3 a t \\geqslant 0$,\n\n当 $t=0$ 时，不等式显然成立;\n\n当 $0<t \\leqslant 1$ 时， $3 a \\geqslant 4 t-\\frac{5}{t}$,\n\n由 $4 t-\\frac{5}{t}$ 在 $(0,1]$ 递增, 可得 $t=1$ 时, 取得最大值 -1 , 可得 $3 a \\geqslant-1$, 即 $a \\geqslant-\\frac{1}{3}$;\n\n当 $-1 \\leqslant t<0$ 时, $3 a \\leqslant 4 t-\\frac{5}{t}$,\n\n由 $4 t-\\frac{5}{t}$ 在 $[-1,0)$ 递增, 可得 $t=-1$ 时, 取得最小值 1 ,\n\n可得 $3 a \\leqslant 1$, 即 $a \\leqslant \\frac{1}{3}$.\n\n综上可得 $\\mathrm{a}$ 的范围是 $\\left[-\\frac{1}{3}, \\frac{1}{3}\\right]$."
+    },
+    {
+        "instruction": "4. (5 分) 椭圆 $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$ 的离心率是多少?",
+        "input": "",
+        "output": "解: 根据椭圆的方程 $\\frac{x^{2}}{16}+\\frac{y^{2}}{8}=1$, 可得 $a=4, b=2 \\sqrt{2}$, 则 $c=\\sqrt{16-8}=2 \\sqrt{2}$;\n\n则椭圆的离心率为 $e=\\frac{c}{a}=\\frac{\\sqrt{2}}{2}$."
+    },
+    {
+        "instruction": "已知非零向量 $\\boldsymbol{a}, \\boldsymbol{b}$ 满足 $|a|=2|b|$, 且 $(\\boldsymbol{a}-\\boldsymbol{b}) \\perp \\boldsymbol{b}$, 则 $\\boldsymbol{a}$ 与 $\\boldsymbol{b}$ 的夹角是多少?",
+        "input": "",
+        "output": "解: 因为 $(a-b) \\perp b$, 所以 $(a-b) \\cdot b=a \\cdot b-b^{2}=0$, 所以 $a \\cdot b=b^{2}$, 所以 $\\cos \\theta=\\frac{a \\cdot b}{|a| \\cdot|b|}=\\frac{|b|^{2}}{2|b|^{2}}=\\frac{1}{2}$, 所以 $a$ 与 $b$ 的夹角为 $\\frac{\\pi}{3}$."
+    },
+    {
+        "instruction": "2. (5 分) 复数 $\\frac{5 i}{1-2 i}$ 的值是多少?",
+        "input": "",
+        "output": "解: $\\frac{5 i}{1-2 i}=\\frac{5 i(1+2 i)}{(1-2 i)(1+2 i)}=-2+i$."
+    },
+    {
+        "instruction": "设 $O$ 为坐标原点, 直线 $x=a$ 与双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的两条渐近线分别交于 $D, E$ 两点, 若 $\\square O D E$ 的面积为 8 , 则 $C$ 的焦距的最小值是多少?",
+        "input": "",
+        "output": "解: 双曲线的渐近线方程是 $y= \\pm \\frac{b}{a} x$\n\n直线 $x=a$ 与双曲线的两条渐近线分别交于 $D, E$ 两点，不妨设 $D$ 在第一象限, $E$ 在第四象限\n\n联立 $\\left\\{\\begin{array}{l}x=a \\\\ y=\\frac{b}{a} x\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=a \\\\ y=b\\end{array}\\right.$，故 $D(a, b)$\n\n联立 $\\left\\{\\begin{array}{l}x=a \\\\ y=-\\frac{b}{a} x\\end{array}\\right.$, 解得 $\\left\\{\\begin{array}{l}x=a \\\\ y=-b\\end{array}\\right.$，故 $E(a,-b)$\n\n因此，$|ED|=2 b$\n\n$\\square O D E$ 面积为: $S_{\\triangle O D E}=\\frac{1}{2} a \\times 2 b=a b=8$\n\n双曲线的焦距为 $2 c=2 \\sqrt{a^{2}+b^{2}} \\geq 2 \\sqrt{2 a b}=2 \\sqrt{16}=8$\n\n当且仅当 $a=b=2 \\sqrt{2}$ 取等号\n\n因此，$C$ 的焦距的最小值为：8"
+    },
+    {
+        "instruction": "4. (5 分) 已知双曲线 $c: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的离心率为 $\\frac{\\sqrt{5}}{2}$，则 $c$ 的渐近线方程是什么?",
+        "input": "",
+        "output": "解: 由双曲线 $c: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$,\n\n则离心率 $e=\\frac{c}{a}=\\frac{\\sqrt{a^{2}+b^{2}}}{a}=\\frac{\\sqrt{5}}{2}$, 即 $4 b^{2}=a^{2}$,\n\n故渐近线方程为 $y= \\pm \\frac{b}{a} x= \\pm \\frac{1}{2} x$."
+    },
+    {
+        "instruction": "4. (5 分) 如果从 $1,2,3,4,5$ 中任取 3 个不同的数，这 3 个数构成一组勾股数的概率是多少?",
+        "input": "",
+        "output": "解: 从 $1,2,3,4,5$ 中任取 3 个不同的数, 有 $(1,2,3),(1,2,4),(1,2,5),(1,3,4),(1,3,5),(1,4,5),(2,3,4)$, $(2,3,5),(2,4,5),(3,4,5)$ 共 10 种,\n\n其中只有 $(3,4,5)$ 为勾股数,\n\n故这 3 个数构成一组勾股数的概率为 $\\frac{1}{10}$."
+    },
+    {
+        "instruction": "5. (5 分) 已知椭圆 $E$ 的中心在坐标原点, 离心率为 $\\frac{1}{2}, E$ 的右焦点与抛物线 $C: y^{2}=8 x$ 的焦点重合, $A, B$ 是 $C$ 的准线与 $E$ 的两个交点, 则 $|A B|$的值是多少?",
+        "input": "",
+        "output": "解：椭圆 $E$ 的中心在坐标原点, 离心率为 $\\frac{1}{2}, \\mathrm{E}$ 的右焦点 $(\\mathrm{c}, 0)$ 与抛物线 $C: y^{2}=8 x$ 的焦点 $(2,0)$ 重合，\n\n可得 $c=2, a=4, b^{2}=12$, 椭圆的标准方程为: $\\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1$,\n\n抛物线的准线方程为: $x=-2$,\n\n由 $\\left\\{\\begin{array}{l}x=-2 \\\\ \\frac{x^{2}}{16}+\\frac{y^{2}}{12}=1\\end{array}\\right.$, 解得 $y= \\pm 3$, 所以 $A(-2,3), B(-2,-3)$.\n\n$|A B|=6$."
+    },
+    {
+        "instruction": "设 $z=\\frac{3-\\mathrm{i}}{1+2 \\mathrm{i}}$, 则 $|z|$的值是多少?",
+        "input": "",
+        "output": "解: 因为 $z=\\frac{3-i}{1+2 i}$, 所以 $z=\\frac{(3-i)(1-2 i)}{(1+2 i)(1-2 i)}=\\frac{1}{5}-\\frac{7}{5} i$, 所以 $|z|=\\sqrt{\\left(\\frac{1}{5}\\right)^{2}+\\left(-\\frac{7}{5}\\right)^{2}}=\\sqrt{2}$."
+    },
+    {
+        "instruction": "9. (5 分) 已知等比数列 $\\left\\{a_{n}\\right\\}$ 满足 $a_{1}=\\frac{1}{4}, a_{3} a_{5}=4 （ a_{4}-1）$, 则 $a_{2}$的值是多少?",
+        "input": "",
+        "output": "解: 设等比数列 $\\left\\{a_{n}\\right\\}$ 的公比为 $q$,\n\n$\\because a_{1}=\\frac{1}{4}, a_{3} a_{5}=4\\left(a_{4}-1\\right)$,\n\n$\\therefore\\left(\\frac{1}{4}\\right)^{2} \\times q^{6}=4\\left(\\frac{1}{4} q^{3}-1\\right)$,\n\n化为 $q^{3}=8$, 解得 $q=2$\n\n则 $a_{2}=\\frac{1}{4} \\times 2=\\frac{1}{2}$."
+    },
+    {
+        "instruction": "1. （5 分）已知集合 $A=\\{0,2\\}, B=\\{-2,-1,0,1,2\\}$, 则 $A \\cap B$ 的结果是什么?",
+        "input": "",
+        "output": "解：集合 $\\mathrm{A}=\\{0,2\\}, B=\\{-2,-1,0,1,2\\}$,\n\n则 $A \\cap B=\\{0,2\\}$."
+    },
+    {
+        "instruction": "青少年视力是社会普遍关注的问题, 视力情况可借助视力表测量. 通常用五分记录法和小数记录法记录视力数据, 五分记录法的数据 $L$ 和小数记录表的数据 $V$ 的满足 $L=5+\\lg V$. 已知某同学视力的五分记录法的数据为 4.9 , 则其视力的小数记录法的数据是多少?",
+        "input": "",
+        "output": "解: 由 $L=5+\\lg V$, 当 $L=4.9$ 时, $\\lg V=-0.1$,\n\n则 $V=10^{-0.1}=10^{-\\frac{1}{10}}=\\frac{1}{\\sqrt[10]{10}} \\approx \\frac{1}{1.259} \\approx 0.8$."
+    },
+    {
+        "instruction": "$(1-\\mathrm{i})^{4}$的值是多少?",
+        "input": "",
+        "output": "解: $(1-i)^{4}=\\left((1-i)^{2}\\right)^{2}=\\left(1-2 i+i^{2}\\right)^{2}=(2 i)^{2}=-4$."
+    },
+    {
+        "instruction": "2. （5 分）已知集合 $A=\\{1,3,5,7\\}, B=\\{2,3,4,5\\}$, 则 $A \\cap B$的值是什么?",
+        "input": "",
+        "output": "解: $\\because$ 集合 $\\mathrm{A}=\\{1,3,5,7\\}, B=\\{2,3,4,5\\}$,\n\n$\\therefore A \\cap B=\\{3,5\\}$."
+    },
+    {
+        "instruction": "7. (5 分) 已知 $\\left\\{a_{n}\\right\\}$ 是公差为 1 的等差数列, $S_{n}$ 为 $\\left\\{a_{n}\\right\\}$ 的前 $n$ 项和, 若 $S_{8}=4 S_{4}$, 则 $\\mathrm{a}_{10}$的值是多少?",
+        "input": "",
+        "output": "解: $\\because\\left\\{a_{n}\\right\\}$ 是公差为 1 的等差数列, $S_{8}=4 S_{4}$,\n\n$\\therefore 8 \\mathrm{a}_{1}+\\frac{8 \\times 7}{2} \\times 1=4 \\times\\left(4 \\mathrm{a}_{1}+\\frac{4 \\times 3}{2}\\right)$,\n\n解得 $a_{1}=\\frac{1}{2}$.\n\n则 $\\mathrm{a}_{10}=\\frac{1}{2}+9 \\times 1=\\frac{19}{2}$."
+    },
+    {
+        "instruction": "若抛物线 $y^{2}=2 p x \\quad(p>0)$ 的焦点是椭圆 $\\frac{x^{2}}{3 p}+\\frac{y^{2}}{p}=1$ 的一个焦点, 则 $p$的值是多少?",
+        "input": "",
+        "output": "解: 因为抛物线 $y^{2}=2 p x(p>0)$ 的焦点 $\\left(\\frac{p}{2}, 0\\right)$ 是椭圆 $\\frac{x^{2}}{3 p}+\\frac{y^{2}}{p}=1$ 的一个焦点, 所以 $3 p-p=\\left(\\frac{p}{2}\\right)^{2}$, 解得 $p=8$."
+    },
+    {
+        "instruction": "1. (5 分) $i(2+3 i)$ 的值是多少?",
+        "input": "",
+        "output": "解: $i(2+3 i)=2 i+3 i^{2}=-3+2 i$."
+    },
+    {
+        "instruction": "6. 某学校为了解 1000 名新生的身体素质, 将这些学生编号为 $1,2, \\cdots, 1000$, 从这些新 生中用系统抽样方法等距抽取 100 名学生进行体质测验, 若 46 号学生被抽到, 则下面哪些号的学生会被抽到？",
+        "input": "",
+        "output": "解: 由已知将 1000 名学生分成 100 个组, 每组 10 名学生, 用系统抽样, 46 号 学生被抽到,\n\n所以第一组抽到 6 号, 且每组抽到的学生号构成等差数列 $\\left\\{a_{n}\\right\\}$, 公差 $d=10$,\n\n所以 $a_{n}=6+10 n\\left(n \\in \\mathbf{N}^{*}\\right)$ ，\n\n若 $8=6+10 n$, 则 $n=\\frac{1}{5}$, 不合题意; 若 $200=6+10 n$, 则 $n=19.4$, 不合题意;\n\n若 $616=6+10 n$, 则 $n=60$, 符合题意; 若 $815=6+10 n$, 则 $n=80.9$, 不合题意.\n\n因此，被抽到的学生编号为 616 号。"
+    },
+    {
+        "instruction": "若 $x_{1}=\\frac{\\pi}{4}, x_{2}=\\frac{3 \\pi}{4}$ 是函数 $f(x)=\\sin \\omega x(\\omega>0)$ 两个相邻的极值点, 则 $\\omega$ 的值是多少?",
+        "input": "",
+        "output": "解: 由题意知, $f(x)=\\sin \\omega x$ 的周期 $T=\\frac{2 \\pi}{\\omega}=2\\left(\\frac{3 \\pi}{4}-\\frac{\\pi}{4}\\right)=\\pi$, 得 $\\omega=2$."
+    },
+    {
+        "instruction": "函数 $f(x)=\\sin \\frac{x}{3}+\\cos \\frac{x}{3}$ 的最小正周期和最大值分别是多少?",
+        "input": "",
+        "output": "解: \n\n$f(x)=\\sqrt{2} \\sin \\left(\\frac{x}{3}+\\frac{\\pi}{4}\\right)$\n\n因此, $f(x)_{\\max }=\\sqrt{2}, \\quad T=\\frac{2 \\pi}{\\frac{1}{3}}=6 \\pi$."
+    },
+    {
+        "instruction": "6. (5 分) 函数 $\\mathrm{f}(\\mathrm{x})=\\frac{\\tan x}{1+\\tan ^{2} \\mathrm{x}}$ 的最小正周期是多少?",
+        "input": "",
+        "output": "解: 函数 $f(x)=\\frac{\\tan x}{1+\\tan ^{2} x}=\\frac{\\sin x \\cos x}{\\cos ^{2} x+\\sin ^{2} x}=\\frac{1}{2} \\sin 2 x$ 的最小正周期为 $\\frac{2 \\pi}{2}=\\pi$."
+    },
+    {
+        "instruction": "8. （5 分）已知函数 $f(x)=2 \\cos ^{2} x-\\sin ^{2} x+2$, 求该函数的最小正周期和最大值。",
+        "input": "",
+        "output": "解：函数 $f(x)=2 \\cos ^{2} x-\\sin ^{2} x+2$,\n\n$=2 \\cos ^{2} x-\\sin ^{2} x+2 \\sin ^{2} x+2 \\cos ^{2} x$\n\n$=4 \\cos ^{2} x+\\sin ^{2} x$\n\n$=3 \\cos ^{2} x+1$,\n\n$=3 \\cdot \\frac{\\cos 2 x+1}{2}+1$,\n\n$=\\frac{3 \\cos 2 x}{2}+\\frac{5}{2}$\n\n故函数的最小正周期为 $\\pi$,\n\n函数的最大值为 $\\frac{3}{2}+\\frac{5}{2}=4$."
+    },
+    {
+        "instruction": "设 $O$ 为坐标原点, 直线 $x=2$ 与抛物线 $C: y^{2}=2 p x(p>0)$ 交于 $D, E$ 两点, 若 $O D \\perp O E$, 则 $C$ 的焦点坐标是什么?",
+        "input": "",
+        "output": "解: 因为直线 $x=2$ 与抛物线 $y^{2}=2 p x(p>0)$ 交于 $D, E$ 两点, 且 $O D \\perp O E$, 根据抛物线的对称性可以确定 $\\angle D O x=\\angle C O x=\\frac{\\pi}{4}$, 所以 $C(2,2)$, 代入抛物线方程 $4=4 p$, 求得 $p=1$, 所以其焦点坐标为 $\\left(\\frac{1}{2}, 0\\right)$. "
+    },
+    {
+        "instruction": "7. (5 分) 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点, 则 $\\overrightarrow{E B}$的表达式是什么?",
+        "input": "",
+        "output": "解: 在 $\\triangle A B C$ 中, $A D$ 为 $B C$ 边上的中线, $E$ 为 $A D$ 的中点,\n\n$\\overrightarrow{\\mathrm{EB}}=\\overrightarrow{\\mathrm{AB}}-\\overrightarrow{\\mathrm{AE}}=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\overrightarrow{\\mathrm{AD}}$\n\n$=\\overrightarrow{\\mathrm{AB}}-\\frac{1}{2} \\times \\frac{1}{2}(\\overrightarrow{\\mathrm{AB}}+\\overrightarrow{\\mathrm{AC}})$\n\n$=\\frac{3}{4} \\overrightarrow{\\mathrm{AB}}-\\frac{1}{4} \\overrightarrow{\\mathrm{AC}}$"
+    },
+    {
+        "instruction": "11. (5 分) $\\triangle A B C$ 的内角 $A, B, C$ 的对边分别为 $a, b, c$, 已知 $\\sin B+\\sin A(\\sin C-\\cos C)=0, a=2, \\quad c=\\sqrt{2}$, 求角 $C$ 的值。",
+        "input": "",
+        "output": "解: $\\sin B=\\sin (A+C)=\\sin A \\cos C+\\cos A \\sin C$,\n\n$\\because \\sin B+\\sin A(\\sin C-\\cos C)=0$,\n\n$\\therefore \\sin A \\cos C+\\cos A \\sin C+\\sin A \\sin C-\\sin A \\cos C=0$,\n\n$\\therefore \\cos A \\sin C+\\sin A \\sin C=0$, $\\because \\sin C \\neq 0$\n\n$\\therefore \\cos A=-\\sin A$,\n\n$\\therefore \\tan A=-1$,\n\n$\\because \\frac{\\pi}{2}<A<\\pi$\n\n$\\therefore A=\\frac{3 \\pi}{4}$\n\n由正弦定理可得 $\\frac{c}{\\sin C}=\\frac{a}{\\sin A}$，\n\n$\\therefore \\sin C=\\frac{c \\sin A}{a}$,\n\n$\\because a=2, c=\\sqrt{2}$,\n\n$\\therefore \\sin C=\\frac{\\operatorname{csin} A}{a}=\\frac{\\sqrt{2} \\times \\frac{\\sqrt{2}}{2}}{2}=\\frac{1}{2}$,\n\n$\\because a>c$\n\n$\\therefore C=\\frac{\\pi}{6}$"
+    },
+    {
+        "instruction": "1. （5 分）已知集合 $A=\\left\\{x \\mid x^{2}-x-2<0\\right\\}, B=\\{x \\mid-1<x<1\\}$, 则集合 A 和集合 B 之间的关系是什么?",
+        "input": "",
+        "output": "解：由题意可得, $A=\\{x \\mid-1<x<2\\}$,\n\n$\\because B=\\{x \\mid-1<x<1\\}$\n\n在集合 $B$ 中的元素都属于集合 $A$, 但是在集合 $A$ 中的元素不一定在集合 $B$ 中, 例如 $x=\\frac{3}{2}$\n\n$\\therefore B \\subsetneq A$."
+    },
+    {
+        "instruction": "10. (5 分) 已知双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1(a>0, b>0)$ 的离心率为 $\\sqrt{2}$，则点 $(4, 0)$ 到 C 的渐近线的距离是多少?",
+        "input": "",
+        "output": "解: 双曲线 $\\mathrm{C}: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 \\quad(a>0, b>0)$ 的离心率为 $\\sqrt{2}$,\n\n可得 $\\frac{c}{a}=\\sqrt{2}$, 即: $\\frac{a^{2}+b^{2}}{a^{2}}=2$, 解得 $a=b$,\n\n双曲线 $C: \\frac{x^{2}}{a^{2}}-\\frac{y^{2}}{b^{2}}=1 \\quad(a>b>0)$ 的渐近线方程为: $y= \\pm x$,\n\n点 $(4,0)$ 到 $C$ 的渐近线的距离为: $\\frac{| \\pm 4|}{\\sqrt{2}}=2 \\sqrt{2}$."
+    },
+    {
+        "instruction": "11. 函数 $f(x)=\\cos x+(x+1) \\sin x+1$ 在区间 $[0,2 \\pi]$ 的最小值和最大值分别是多少?",
+        "input": "",
+        "output": "解: $f^{\\prime}(x)=-\\sin x+\\sin x+(x+1) \\cos x=(x+1) \\cos x$, 所以 $f(x)$ 在区间 $\\left(0, \\frac{\\pi}{2}\\right)$ 和 $\\left(\\frac{3 \\pi}{2}, 2 \\pi\\right)$ 上 $f^{\\prime}(x)>0$, 即 $f(x)$ 单调递增; 在区间 $\\left(\\frac{\\pi}{2}, \\frac{3 \\pi}{2}\\right)$ 上 $f^{\\prime}(x)<0$, 即 $f(x)$ 单调递减, 又 $f(0)=f(2 \\pi)=2, f\\left(\\frac{\\pi}{2}\\right)=\\frac{\\pi}{2}+2, f\\left(\\frac{3 \\pi}{2}\\right)=-\\left(\\frac{3 \\pi}{2}+1\\right)+1=-\\frac{3 \\pi}{2}$ ， 所以 $f(x)$ 在区间 $[0,2 \\pi]$ 上的最小值为 $-\\frac{3 \\pi}{2}$, 最大值为 $\\frac{\\pi}{2}+2$."
+    },
+    {
+        "instruction": "设函数 $f(x)=x^{3}-\\frac{1}{x^{3}}$, 则 $f(x)$ 的性质是什么?",
+        "input": "",
+        "output": "解: 因为函数 $f(x)=x^{3}-\\frac{1}{x^{3}}$ 定义域为 $\\{x \\mid x \\neq 0\\}$, 其关于原点对称, 而 $f(-x)=-f(x)$,\n\n所以函数 $f(x)$ 为奇函数.\n\n又因为函数 $y=x^{3}$ 在 $(0,+\\infty)$ 上单调递增, 在 $(-\\infty, 0)$ 上单调递增,\n\n而 $y=\\frac{1}{x^{3}}=x^{-3}$ 在 $(0,+\\infty)$ 上单调递减, 在 $(-\\infty, 0)$ 上单调递减,\n\n所以函数 $f(x)=x^{3}-\\frac{1}{x^{3}}$ 在 $(0,+\\infty)$ 上单调递增，在 $(-\\infty, 0)$ 上单调递增."
+    },
+    {
+        "instruction": "10. （5 分) 已知抛物线 $C: y^{2}=x$ 的焦点为 $F, A\\left(x_{0}, y_{0}\\right)$ 是 $C$ 上一点, $A F=\\left|\\frac{5}{4} x_{0}\\right|$ , 则 $x_{0}$的值是多少?",
+        "input": "",
+        "output": "解：抛物线 $c: y^{2}=x$ 的焦点为 $F\\left(\\frac{1}{4}, 0\\right)$,\n\n$\\because A\\left(x_{0}, y_{0}\\right)$ 是 $C$ 上一点, $A F=\\left|\\frac{5}{4} x_{0}\\right|, x_{0}>0$.\n\n$\\therefore \\frac{5}{4} x_{0}=x_{0}+\\frac{1}{4}$\n\n解得 $x_{0}=1$."
+    },
+    {
+        "instruction": "11. (5 分) 已知角 $\\alpha$ 的顶点为坐标原点, 始边与 $\\mathrm{x}$ 轴的非负半轴重合, 终边上 有两点 $A(1, a), B(2, b)$, 且 $\\cos 2 \\alpha=\\frac{2}{3}$, 则 $|a-b|$ 的值是多少?",
+        "input": "",
+        "output": "解: $\\because$ 角 $\\alpha$ 的顶点为坐标原点, 始边与 $\\mathrm{x}$ 轴的非负半轴重合,\n\n终边上有两点 $A(1, a), B(2, b)$, 且 $\\cos 2 \\alpha=\\frac{2}{3}$,\n\n$\\therefore \\cos 2 \\alpha=2 \\cos ^{2} \\alpha-1=\\frac{2}{3}$, 解得 $\\cos ^{2} \\alpha=\\frac{5}{6}$,\n\n$\\therefore|\\cos \\alpha|=\\frac{\\sqrt{30}}{6}, \\quad \\therefore|\\sin \\alpha|=\\sqrt{1-\\frac{30}{36}}=\\frac{\\sqrt{6}}{6}$,\n\n$|\\tan \\alpha|=\\left|\\frac{b-a}{2-1}\\right|=|a-b|=\\frac{|\\sin \\alpha|}{|\\cos \\alpha|}=\\frac{\\frac{\\sqrt{6}}{6}}{\\frac{\\sqrt{30}}{6}} = \\frac{\\sqrt{5}}{5}$."
+    },
+    {
+        "instruction": "1. （5 分） 设集合 $A=\\{1,2,3\\}, B=\\{2,3,4\\}$, 则 $A \\cup B$ 的值是多少?",
+        "input": "",
+        "output": "解: $\\because A=\\{1,2,3\\}, B=\\{2,3,4\\}$,\n\n$\\therefore A \\cup B=\\{1,2,3,4\\}$"
+    },
+    {
+        "instruction": "求解线性方程组：\n2x+y=5\nx-y=1\n的解是什么?",
+        "input": "",
+        "output": "将两个方程相加，得3x=6，解得x=2。\n将x=2代入第一个方程，得4+y=5，解得y=1。\n所以方程组的解为x=2，y=1。"
+    },
+    {
+        "instruction": "设X~N(μ,σ^2), Y~N(0,1)，且X和Y独立，求P(X+Y<0)的值。",
+        "input": "",
+        "output": "解:\n1. X+Y的分布:\nE(X+Y) = E(X) + E(Y) = μ + 0 = μ\nVar(X+Y) = Var(X) + Var(Y) = σ^2 + 1\n所以,X+Y ~ N(μ, σ^2+1)\n\n2. 标准化X+Y:\nZ = (X+Y-μ) / √(σ^2+1) ~ N(0,1)\n\n3. 计算概率:\nP(X+Y<0) = P((X+Y-μ)/√(σ^2+1) < -μ/√(σ^2+1))\n= P(Z < -μ/√(σ^2+1))\n= Φ(-μ/√(σ^2+1))\n\n其中Φ是标准正态分布的累积分布函数。"
+    },
+    {
+        "instruction": "设有一随机变量X，X服从均匀分布U(a,b)，求其方差Var(X)。",
+        "input": "",
+        "output": "解: 均匀分布U(a,b)的方差为Var(X)=(b-a)^2/12。"
+    },
+    {
+        "instruction": "设X~N(μ,σ^2)，求P(|X-μ| < 2σ)的值。",
+        "input": "",
+        "output": "解析: 对于标准正态分布Z~N(0,1)，有P(|Z| < 2) ≈ 0.9545。将X标准化：Z = (X-μ)/σ\n因此，P(|X-μ| < 2σ) = P(|(X-μ)/σ| < 2)\n= P(|Z| < 2) ≈ 0.9545"
+    },
+    {
+        "instruction": "设 $f^{\\prime}\\left(x_{0}\\right)=f^{\\prime \\prime}\\left(x_{0}\\right)=0, f^{\\prime \\prime \\prime}\\left(x_{0}\\right)>0$, 则 $(x_{0}, f\\left(x_{0}\\right))$ 是 $y=f(x)$ 的什么点?",
+        "input": "",
+        "output": "解：由 $f^{\\prime \\prime}\\left(x_{0}\\right)=0$ 及已知条件, 有\n$f^{\\prime \\prime \\prime}\\left(x_{0}\\right)=\\lim _{x \\rightarrow x_{0}} \\frac{f^{\\prime \\prime}(x)-f^{\\prime \\prime}\\left(x_{0}\\right)}{x-x_{0}}=\\lim _{x \\rightarrow x_{0}} \\frac{f^{\\prime \\prime}(x)}{x-x_{0}}>0$,\n由极限的保号性, 可知当 $x>x_{0}$ 时, $f^{\\prime \\prime}(x)>0$; 当 $x<x_{0}$ 时, $f^{\\prime \\prime}(x)<0$, 即在 $x_{0}$ 两侧 $f^{\\prime \\prime}(x)$ 变号, 故 $(x_{0}, f\\left(x_{0}\\right))$ 是 $y=f(x)$ 的拐点."
+    },
+    {
+        "instruction": "计算函数f(x) = ln(x)的二阶导数。",
+        "input": "",
+        "output": "解: 函数f(x) = ln(x)的一阶导数为f'(x) = 1/x，继续求导得到二阶导数f''(x) = -1/x^2。"
+    },
+    {
+        "instruction": "已知函数f(x)=x^3-3x，求其在点x=2处的泰勒展开式（保留到二次项）。",
+        "input": "",
+        "output": "解: 函数在x=2处的泰勒展开式为：\nf(x)≈f(2)+f'(2)(x-2)+f''(2)(x-2)^2/2。\n已知f(x)=x^3-3x，\n则f(2)=2^3-3*2=2，f'(x)=3x^2-3，f'(2)=3*2^2-3=9，\nf''(x)=6x，f''(2)=6*2=12。\n所以f(x)≈2+9(x-2)+12(x-2)^2/2=2+9(x-2)+6(x-2)^2。"
+    },
+    {
+        "instruction": "设随机变量X的概率密度函数为f(x)=λe^(-λx) (x>0)，求X的期望E(X)是多少?",
+        "input": "",
+        "output": "解：\nE(X) = ∫xf(x)dx = ∫xλe^(-λx)dx, 从0到∞\n= λ∫xe^(-λx)dx, 从0到∞\n使用分部积分：u=x, dv=λe^(-λx)dx\n= [-xe^(-λx)]_0^∞ + ∫e^(-λx)dx, 从0到∞\n= 0 + [-1/λ * e^(-λx)]_0^∞\n= 1/λ"
+    },
+    {
+        "instruction": "若随机变量X服从参数为λ的指数分布，求其均值和方差。",
+        "input": "",
+        "output": "对于参数为λ的指数分布，其均值为1/λ，方差为1/λ^2。"
+    },
+    {
+        "instruction": "设随机变量X服从参数为λ的泊松分布，求Var(X)。",
+        "input": "",
+        "output": "对于参数为λ的泊松分布：\n1. E(X) = λ\n2. E(X^2) = λ^2 + λ\n3. Var(X) = E(X^2) - [E(X)]^2\n         = (λ^2 + λ) - λ^2\n         = λ\n因此，Var(X)的值为λ。"
+    },
+    {
+        "instruction": "已知随机变量X服从[0,1]上的均匀分布，求Y=X^2的概率密度函数。",
+        "input": "",
+        "output": "解: 根据概率密度函数的变换公式，\nf_Y(y) = f_X(g^-1(y)) * |dg^-1(y)/dy|\n其中，g(x) = x^2, g^-1(y) = √y\n所以，\nf_Y(y) = f_X(√y) * |(1/2)y^(-1/2)| = 1 * (1/2)y^(-1/2) = (1/2)y^(-1/2), 0 ≤ y ≤ 1"
+    },
+    {
+        "instruction": "设随机变量X服从参数为λ的泊松分布，求Var(X)。",
+        "input": "",
+        "output": "对于参数为λ的泊松分布，我们有：\nE(X) = λ\nE(X^2) = λ^2 + λ\n\nVar(X) = E(X^2) - [E(X)]^2\n= (λ^2 + λ) - λ^2\n= λ\n\n因此，Var(X) = λ"
+    },
+    {
+        "instruction": "已知函数$f(x)=x^2+3x+2$，求$f(x)$的极小值点。",
+        "input": "",
+        "output": "首先求导：$f'(x)=2x+3$。设$f'(x)=0$，得$2x+3=0$，解得$x=-1.5$。验证$f''(x)=2>0$，所以在$x=-1.5$处取得极小值。"
+    },
+    {
+        "instruction": "设矩阵A=[[1,2],[3,4]]，求A的特征值。",
+        "input": "",
+        "output": "解析: 求解特征方程:|A-λI| = 0\n|1-λ 2|\n|3 4-λ| = 0\n(1-λ)(4-λ) - 6 = 0\nλ^2 - 5λ + (-2) = 0\n求解二次方程得：\nλ1 = (5+√33)/2 ≈ 5.372\nλ2 = (5-√33)/2 ≈ -0.372"
+    },
+    {
+        "instruction": "计算定积分 ∫(1 to 2) (1/x) dx 的值是多少?",
+        "input": "",
+        "output": "解：∫(1 to 2) (1/x) dx = [ln|x|]_(1 to 2) = ln(2) - ln(1) = ln(2)."
+    },
+    {
+        "instruction": "设 $D$ 为由 $y = x^2 - 4$ 和 $y = 0$ 所围区域，求积分 $I = \\iint_D (kx + y) \\, \\mathrm{d}x \\, \\mathrm{d}y$ 的正负性。",
+        "input": "",
+        "output": "解：$D$ 关于y 轴对称，$kx$ 关于$x$ 为奇函数，故$\\iint_D kx \\, \\mathrm{d}x \\, \\mathrm{d}y= 0.$ 又在$D$ 内，$y<0$, 故$I<0.$"
+    },
+    {
+        "instruction": "设 $a_{n}=\\frac{3}{2} \\int_{0}^{\\frac{n}{n+1}} x^{n-1} \\sqrt{1+x^{n}} \\mathrm{~d} x$, 则 $\\lim _{n \\rightarrow \\infty} n a_{n}$ 的值是多少?",
+        "input": "",
+        "output": "解：\n$a_{n} = \\frac{3}{2} \\int_{0}^{\\frac{n}{n+1}} x^{n-1} \\sqrt{1+x^{n}} \\mathrm{~d} x=\\frac{3}{2} \\cdot \\frac{1}{n} \\int_{0}^{\\frac{n}{n+1}}\\left(1+x^{n}\\right)^{\\frac{1}{2}} \\mathrm{~d}\\left(1+x^{n}\\right) \\\\ =\\left.\\frac{3}{2} \\cdot \\frac{1}{n} \\cdot \\frac{2}{3}\\left(1+x^{n}\\right)^{\\frac{3}{2}}\\right|_{0} ^{\\frac{n}{n+1}}=\\frac{1}{n}\\left\\{\\left[1+\\left(\\frac{n}{n+1}\\right)^{n}\\right]^{\\frac{3}{2}}-1\\right\\} .\\\\$ \n由 $\\lim _{n \\rightarrow \\infty}\\left(\\frac{n+1}{n}\\right)^{n}=e$, 知 $\\lim _{n \\rightarrow \\infty}\\left(\\frac{n}{n+1}\\right)^{n}=\\frac{1}{e}$, 故\n$\\lim _{n \\rightarrow \\infty} n a_{n}=\\lim _{n \\rightarrow \\infty}\\left\\{\\left[1+\\left(\\frac{n}{n+1}\\right)^{n}\\right]^{\\frac{3}{2}}-1\\right\\}=(1+e^{-1})^{\\frac{3}{2}}-1$."
+    },
+    {
+        "instruction": "已知随机变量X服从参数为λ=3的泊松分布，求P(X≤1)的值。",
+        "input": "",
+        "output": "解：已知随机变量X服从参数为λ=3的泊松分布，求P(X≤1)。\nP(X≤1) = P(X=0) + P(X=1) = (e^(-3)*3^0)/0! + (e^(-3)*3^1)/1! = e^(-3) + 3e^(-3) ≈ 0.199"
+    },
+    {
+        "instruction": "求解方程组：\n3x + 2y = 7\n5x - y = 8\n的解是什么?",
+        "input": "",
+        "output": "使用消元法：\n1. 将第一个方程乘以5：15x + 10y = 35\n2. 将第二个方程乘以3：15x - 3y = 24\n3. 两式相减：13y = 11\n4. 解得y = 11/13\n5. 代入第一个方程：3x + 2(11/13) = 7\n6. 解得x = 15/13\n解：x = 15/13, y = 11/13"
+    },
+    {
+        "instruction": "计算以下矩阵的行列式：A = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]，结果是多少?",
+        "input": "",
+        "output": "解: 行列式 det(A) = 1(5*9 - 6*8) - 2(4*9 - 6*7) + 3(4*8 - 5*7) = 0。"
+    },
+    {
+        "instruction": "已知函数$f(x)=\\ln(x)$在点$x=1$处的二阶导数，求$f''(1)$的值。",
+        "input": "",
+        "output": "首先求$f(x)$的一阶导数，$f'(x)=\\frac{1}{x}$。然后求$f(x)$的二阶导数，$f''(x)=-\\frac{1}{x^2}$。因此，$f''(1)=-\\frac{1}{1^2}=-1$。"
+    },
+    {
+        "instruction": "设f(x)=e^x sin(x)，求f(x)的导数。",
+        "input": "",
+        "output": "解: 使用乘积法则：f'(x) = e^x sin(x) + e^x cos(x)。"
+    },
+    {
+        "instruction": "已知函数f(x)=x^3-6x^2+9x+1，求f(x)在x=2处的导数是多少?",
+        "input": "",
+        "output": "解：f'(x)=3x^2-12x+9，\nf'(2)=3*2^2-12*2+9=3*4-24+9=12-24+9=-3。"
+    },
+    {
+        "instruction": "已知函数f(x)在x = a处的导数为3，求函数y = f(x^2)在x = a处的导数是多少?",
+        "input": "",
+        "output": "解: 函数y = f(x^2)在x = a处的导数为dy/dx = 2a * f'(a^2)."
+    },
+    {
+        "instruction": "设X~N(μ,σ^2)，求P(|X-μ| < 2σ)的值是多少?",
+        "input": "",
+        "output": "解: \n1. 标准化：Z = (X-μ)/σ ~ N(0,1)\n2. P(|X-μ| < 2σ) = P(-2σ < X-μ < 2σ)\n3. = P(-2 < Z < 2)\n4. = Φ(2) - Φ(-2)\n5. = Φ(2) - (1-Φ(2))\n6. = 2Φ(2) - 1\n7. ≈ 2 * 0.9772 - 1\n8. ≈ 0.9544\n\n因此，P(|X-μ| < 2σ) ≈ 0.9544 或 95.44%"
+    },
+    {
+        "instruction": "求直线L:\\(\\frac{x+2}{3}=\\frac{2-y}{1}=\\frac{z+1}{2}\\)在平面\\(\\pi:2x+3y+3z-8=0\\)上的投影直线方程是什么?",
+        "input": "",
+        "output": "解：用平面束方程求出经过直线L且与平面\\(\\pi\\)垂直的平面,该平面与平面\\(\\pi\\)的方程联立,便可得投影直线方程.将直线L变形为一般形式:\\(\\left.\\left\\{\\begin{matrix}x+3y-4=0,\\\\2x-3z+1=0,\\end{matrix}\\right.\\right.\\)故过L的平面束方程为\\(x+3y-4+\\lambda(2x-3z+1)=0\\),即\\(\\left(1+2\\lambda\\right)x+3y-3\\lambda z+\\lambda-4=0\\),此平面与平面\\(\\pi\\)垂直,故\\((1+2\\lambda,3,-3\\lambda)\\bullet(2,3,3)=11-5\\lambda=0\\),解得\\(\\lambda=\\frac{11}{5}\\),于是与平面\\(\\pi:2x+3y+3z-8=0\\)垂直的平面方程为\\(\\left(1+\\frac{22}{5}\\right)x+3y-\\frac{33}{5}z+\\frac{11}{5}-4=0\\),即\\(9x+5y-11z-3=0\\),故所求投影直线方程为\\(\\left.\\left\\{\\begin{matrix}{9x+5y-11z-3=0},\\\\{2x+3y+3z-8=0.}\\end{matrix}\\right.\\right.\\)"
+    },
+    {
+        "instruction": "设 f(x) 在 (-∞,+∞) 内可导, 若 \\lim _{x \\rightarrow+\\infty} f^{\\prime}(x)=+\\infty, 则当 x 趋向于正无穷时，f(x) 的极限是什么?",
+        "input": "",
+        "output": "解：涉及 f(x) 与 f^{\\prime}(x) 的极限, 考虑用拉格朗日中值定理.\n由 \\lim f^{\\prime}(x)=+\\infty, 知存在充分大的 x_{0} 和 M, 当 x>x_{0} 时, 有 f^{\\prime}(x)>M>1, 故当 x \\rightarrow+\\infty 时,\nf(x)=f\\left(x_{0}\\right)+f^{\\prime}(\\xi)\\left(x-x_{0}\\right)>f\\left(x_{0}\\right)+\\left(x-x_{0}\\right) \\rightarrow+\\infty\\left(\\xi \\text { 介于 } x_{0} \\text { 与 } x \\text { 之间 }\\right),\n因此，当 x 趋向于正无穷时，f(x) 的极限为 +∞."
+    },
+    {
+        "instruction": "计算向量a=(1,2,3), b=(4,5,6), c=(7,8,9)的混合积(a×b)·c的结果是多少?",
+        "input": "",
+        "output": "(a×b)·c = (2*6-3*5, 3*4-1*6, 1*5-2*4)·(7,8,9)\n= (-3, 6, -3)·(7,8,9)\n= -21 + 48 - 27\n= 0。"
+    },
+    {
+        "instruction": "计算组合数C(7,3)的值。",
+        "input": "",
+        "output": "解：C(7,3) = 7!/(3!4!) = 35。"
+    },
+    {
+        "instruction": "已知向量a=[1,2,3], b=[4,5,6]，求a和b的点积是多少?",
+        "input": "",
+        "output": "解：a和b的点积为：a·b = 1*4 + 2*5 + 3*6 = 32"
+    },
+    {
+        "instruction": "设随机变量X的概率密度函数为f(x)=1/(2√π)e^(-x^2/4)，-∞<x<∞。求X的数学期望E(X)和方差Var(X)。",
+        "input": "",
+        "output": "解析如下：\n1. 数学期望E(X)：\n由于f(x)是偶函数，X的分布关于y轴对称，因此E(X) = 0\n2. 方差Var(X)：\nVar(X) = E(X^2) - [E(X)]^2 = E(X^2) - 0 = E(X^2)\n计算E(X^2)：\nE(X^2) = ∫(-∞,∞) x^2 * 1/(2√π)e^(-x^2/4) dx\n= 1/(2√π) * ∫(-∞,∞) x^2 * e^(-x^2/4) dx\n令u = x^2/4，则x = ±2√u，dx = ±1/√u du\nE(X^2) = 1/(2√π) * 2 * ∫(0,∞) (2√u)^2 * e^(-u) * 1/√u du\n= 2/√π * ∫(0,∞) 4u * e^(-u) du\n= 8/√π * ∫(0,∞) u * e^(-u) du\n∫(0,∞) u * e^(-u) du = 1 (这是Γ(2)的值)\n因此，E(X^2) = 8/√π\n所以，X的数学期望E(X) = 0，方差Var(X) = 8/√π ≈ 4.51。"
+    },
+    {
+        "instruction": "已知随机变量X和Y相互独立，且X~N(0,1), Y~N(1,4)，求Z=X+2Y的概率密度函数是什么?",
+        "input": "",
+        "output": "由于X和Y相互独立，且服从正态分布，所以Z=X+2Y也服从正态分布。根据期望与方差的线性性质计算得到：\nE(Z)=E(X)+2E(Y)=0+2*1=2\nVar(Z)=Var(X)+4Var(Y)=1+4*4=17\n因此，Z的概率密度函数为：\nf(z)=(1/√(2π*17)) * exp(-(z-2)^2/(2*17))"
+    },
+    {
+        "instruction": "设有随机变量X和Y，X和Y相互独立，求E(XY)的值。",
+        "input": "",
+        "output": "解: 由于X和Y相互独立，根据期望的性质可知 E(XY)=E(X)E(Y)。"
+    },
+    {
+        "instruction": "设随机变量X服从参数为λ的泊松分布，求P(X=2)的值。",
+        "input": "",
+        "output": "解: 泊松分布的概率质量函数为：P(X=k) = (λ^k * e^(-λ)) / k!\n所以，P(X=2) = (λ^2 * e^(-λ)) / 2!"
+    },
+    {
+        "instruction": "设X~N(μ,σ^2)，Y=aX+b，求Y的分布。",
+        "input": "",
+        "output": "解析如下：\n1. X服从正态分布N(μ,σ^2)\n2. Y是X的线性变换\n3. 正态分布的线性变换仍然是正态分布\n4. 新的均值：E(Y) = E(aX+b) = aE(X) + b = aμ + b\n5. 新的方差：Var(Y) = Var(aX+b) = a^2Var(X) = a^2σ^2\n因此，Y ~ N(aμ+b, a^2σ^2)"
+    },
+    {
+        "instruction": "计算组合数C(10,4)的值。",
+        "input": "",
+        "output": "解：C(10,4) = 10!/(4!6!) = 210。"
+    },
+    {
+        "instruction": "求解方程 e^x + 2 = 5 的解。",
+        "input": "",
+        "output": "解析: 首先将等式两边减去2得到 e^x = 3，然后对两边取自然对数得到 x = ln3。"
+    },
+    {
+        "instruction": "设X和Y是两个独立的随机变量，均服从参数为λ的指数分布。求P(X > Y)的值。",
+        "input": "",
+        "output": "解法：\n1. P(X > Y) = ∫∫ f_X(x)f_Y(y) dx dy，其中x > y\n2. f_X(x) = f_Y(y) = λe^(-λt) (t ≥ 0)\n3. P(X > Y) = ∫_0^∞ ∫_0^x λ^2 e^(-λ(x+y)) dy dx\n4. 计算得：P(X > Y) = 1/2"
+    },
+    {
+        "instruction": "计算向量a=[2, 1]和b=[-1, 3]的点积。",
+        "input": "",
+        "output": "解: 向量a和b的点积为：a·b = 2*(-1) + 1*3 = 1"
+    },
+    {
+        "instruction": "计算积分：∫ (x^2 + 2x + 1) / (x^2 - 1) dx 的结果是什么?",
+        "input": "",
+        "output": "解：\n1. 将分子多项式分解：x^2 + 2x + 1 = (x^2 - 1) + (2x + 2)\n2. 重写积分：∫ [(x^2 - 1) / (x^2 - 1) + (2x + 2) / (x^2 - 1)] dx\n3. 简化：∫ [1 + (2x + 2) / (x^2 - 1)] dx\n4. 部分分式分解：(2x + 2) / (x^2 - 1) = 1/(x-1) + 1/(x+1)\n5. 积分变为：∫ [1 + 1/(x-1) + 1/(x+1)] dx\n6. 计算各部分积分：\n ∫ 1 dx = x\n ∫ 1/(x-1) dx = ln|x-1|\n ∫ 1/(x+1) dx = ln|x+1|\n7. 最终结果：x + ln|x-1| + ln|x+1| + C\n其中C为积分常数。"
+    },
+    {
+        "instruction": "求解定积分∫(0到1) (1 - x^2) dx的值。",
+        "input": "",
+        "output": "解：\n考虑计算给定区间的定积分，可以将其拆分为两个部分：∫(0到1) 1 dx 和 ∫(0到1) x^2 dx。对于第一个积分，结果是 [x]_(0到1)，即从0到1的线性函数下的面积，等于1 - 0 = 1。对于第二个积分，使用幂规则得到 [x^3/3]_(0到1)，计算得 (1^3/3) - (0^3/3) = 1/3。因此，原定积分的结果为 1 - 1/3 = 2/3。"
+    },
+    {
+        "instruction": "设有随机变量X~U(0,1)，求其期望E(X)是多少?",
+        "input": "",
+        "output": "解析: 均匀分布U(0,1)的期望为E(X)=0.5。"
+    },
+    {
+        "instruction": "对数曲线 y=\\ln x 上哪一点的曲率半径最小? 求出该点的曲率半径。",
+        "input": "",
+        "output": "解：由 y=\\ln x, y^{\\prime}=\\frac{1}{x}, y^{\\prime \\prime}=-\\frac{1}{x^{2}}, 故曲率半径为\nR=\\frac{1}{K}=\\frac{\\left(1+y^{\\prime 2}\\right)^{\\frac{3}{2}}}{\\left|y^{\\prime \\prime}\\right|}=\\frac{\\left(1+x^{2}\\right)^{\\frac{3}{2}}}{x}. \n令R^{\\prime}=\\frac{\\left(1+x^{2}\\right)^{\\frac{1}{2}}}{x^{2}} \\cdot\\left(2 x^{2}-1\\right)=0,\n得 x=\\frac{\\sqrt{2}}{2},\nR^{\\prime \\prime}=\\frac{2 x^{4}+x^{2}+2}{x^{3} \\sqrt{1+x^{2}}}>0,\n故当 x=\\frac{\\sqrt{2}}{2} 时, 曲率半径最小, 故 y=\\ln x 在点 \\left(\\frac{\\sqrt{2}}{2},-\\frac{1}{2} \\ln 2\\right) 处的曲率半径最小, 最小曲率半径为 \\frac{3 \\sqrt{3}}{2}."
+    },
+    {
+        "instruction": "已知随机变量X和Y相互独立，且X服从均值为μ1，方差为σ1^2的正态分布，Y服从均值为μ2，方差为σ2^2的正态分布。求Z=X+Y的分布。",
+        "input": "",
+        "output": "解: 独立正态分布的和仍然服从正态分布，且均值和方差分别为原正态分布均值和方差的和。所以Z服从均值为μ1+μ2，方差为σ1^2+σ2^2的正态分布。"
+    },
+    {
+        "instruction": "设随机变量X和Y相互独立，且X~N(μ1,σ1^2), Y~N(μ2,σ2^2)，求Z=X+Y的概率密度函数。",
+        "input": "",
+        "output": "由于X和Y相互独立，且服从正态分布，所以Z=X+Y也服从正态分布，且：\nE(Z)=E(X)+E(Y)=μ1+μ2\nVar(Z)=Var(X)+Var(Y)=σ1^2+σ2^2\n所以Z的概率密度函数为：\nf(z)=(1/√(2π(σ1^2+σ2^2))) * exp(-(z-μ1-μ2)^2/(2(σ1^2+σ2^2)))"
+    },
+    {
+        "instruction": "设 y=f(x) 由方程 x=\\int_{1}^{y-x} \\sin ^{2}\\left(\\frac{\\pi t}{4}\\right) \\mathrm{d} t 确定, 则 \\lim _{n \\rightarrow \\infty} n\\left[f\\left(\\frac{1}{n}\\right)-1\\right] 的值是多少?",
+        "input": "",
+        "output": "解：x=\\int_{1}^{y-x} \\sin ^{2}\\left(\\frac{\\pi t}{4}\\right) \\mathrm{d} t 两边同时对 x 求导, 得\n1=\\left(y^{\\prime}-1\\right) \\cdot \\sin ^{2}\\left[\\frac{\\pi}{4}(y-x)\\right],\n解得 y^{\\prime}=\\csc ^{2}\\left[\\frac{\\pi}{4}(y-x)\\right]+1 .\n又由已知, 当 x=0 时, y=1, 即 f(0)=1, 故 \\left.y^{\\prime}\\right|_{x=0}=3,于是\n\\lim _{n \\rightarrow \\infty} n\\left[f\\left(\\frac{1}{n}\\right)-1\\right]=\\lim _{n \\rightarrow \\infty} \\frac{f\\left(\\frac{1}{n}\\right)-f(0)}{\\frac{1}{n}}=f^{\\prime}(0)=3"
+    },
+    {
+        "instruction": "已知向量a = [1, 2]和b = [3, 4]，求它们的点积是多少?",
+        "input": "",
+        "output": "解：a • b = 1*3 + 2*4 = 3 + 8 = 11"
+    },
+    {
+        "instruction": "设随机变量X的概率密度函数为f(x)=λe^(-λx)，x>0，求X的期望E(X)是多少?",
+        "input": "",
+        "output": "解: E(X) = ∫ x * f(x) dx，积分区间为(0,∞)\n代入f(x)：E(X) = ∫ x * λe^(-λx) dx\n使用分部积分法，令u = x, dv = λe^(-λx)dx\n则du = dx, v = -e^(-λx)\nE(X) = [-xe^(-λx)]_0^∞ + ∫ e^(-λx) dx\n第一项在x→∞时趋于0，在x=0时为0\n第二项积分得到：[-1/λ * e^(-λx)]_0^∞ = 1/λ\n因此，E(X) = 1/λ"
+    },
+    {
+        "instruction": "计算排列数A(4,2)的值。",
+        "input": "",
+        "output": "解：A(4,2) = 4!/(4-2)! = (4 × 3)/(1) = 12。"
+    },
+    {
+        "instruction": "计算矩阵A的行列式，其中A = [[2, -1, 3], [4, 0, -2], [-1, 5, 1]]。",
+        "input": "",
+        "output": "使用拉普拉斯展开：\ndet(A) = 2(0-(-10)) - (-1)(4-(-2)) + 3(20-(-1))\n = 2(10) - (-1)(6) + 3(21)\n = 20 + 6 + 63\n = 89\n因此，det(A)的值为89。"
+    },
+    {
+        "instruction": "计算行列式 | 1 2 3 |\n| 4 5 6 |\n| 7 8 9 | 的值是多少?",
+        "input": "",
+        "output": "解: 行列式可以通过代数余子式展开计算：\n\n| 1 2 3 |\n| 4 5 6 | = 1 * | 5 6 | - 2 * | 4 6 | + 3 * | 4 5 |\n| 7 8 9 |     | 8 9 |       | 7 9 |       | 7 8 |\n\n           = 1 * (5 * 9 - 6 * 8) - 2 * (4 * 9 - 6 * 7) + 3 * (4 * 8 - 5 * 7)\n           = -3 + 12 - 9\n           = 0"
+    },
+    {
+        "instruction": "设随机变量X服从均值为0，方差为1的标准正态分布，求E(X^2)的值。",
+        "input": "",
+        "output": "对于标准正态分布N(0,1)，随机变量X的期望E(X)=0，方差Var(X)=E(X^2)-E(X)^2=1。因为E(X)=0，所以E(X^2)=Var(X)=1。"
+    },
+    {
+        "instruction": "计算矩阵A=[[1,2],[3,4]]的特征值。",
+        "input": "",
+        "output": "解: 矩阵A的特征值满足特征方程|A-λI|=0，其中I为单位矩阵。\n所以|[[1-λ,2],[3,4-λ]]|=(1-λ)(4-λ)-6=0。\n解得λ1=(5+√33)/2，λ2=(5-√33)/2。"
+    },
+    {
+        "instruction": "求解不定积分∫(x^2 * e^x)dx的结果是什么?",
+        "input": "",
+        "output": "使用分部积分法：设u=x^2，dv=e^x dx。\n则du=2x dx，v=e^x。\n∫(x^2 * e^x)dx = x^2 * e^x - ∫(2x * e^x)dx。\n继续使用分部积分法，∫(2x * e^x)dx = 2x * e^x - ∫(2 * e^x)dx = 2x * e^x - 2e^x。\n所以∫(x^2 * e^x)dx = x^2 * e^x - (2x * e^x - 2e^x) = x^2 * e^x - 2x * e^x + 2e^x + C。"
+    },
+    {
+        "instruction": "求函数f(x) = x^3 - 3x^2 + 2x在区间[0, 3]上的极值点。",
+        "input": "",
+        "output": "解: \n1. 求导数：f'(x) = 3x^2 - 6x + 2\n2. 令f'(x) = 0：3x^2 - 6x + 2 = 0\n3. 解得：x = 1 或 x = 1/3\n4. 判断端点和驻点：\n f(0) = 0\n f(1/3) ≈ -0.0741\n f(1) = 0\n f(3) = 0\n\n极大值：f(0) = f(1) = f(3) = 0\n极小值：f(1/3) ≈ -0.0741"
+    },
+    {
+        "instruction": "求矩阵A的特征值和特征向量,其中A = [[3, 1], [1, 3]]",
+        "input": "",
+        "output": "解: \n1. 特征方程: |A-λI| = 0\n2. |(3-λ, 1; 1, 3-λ)| = (3-λ)^2 - 1 = 0\n3. λ^2 - 6λ + 8 = 0\n4. 解得: λ1 = 4, λ2 = 2\n5. 对λ1 = 4: (3-4)x + y = 0, x = y\n 特征向量v1 = (1, 1)\n6. 对λ2 = 2: (3-2)x + y = 0, x = -y\n 特征向量v2 = (1, -1)"
+    },
+    {
+        "instruction": "计算积分∫(x^2+1)dx，积分区间为[0,1]的值是多少?",
+        "input": "",
+        "output": "解：根据牛顿-莱布尼茨公式，定积分的值为：[(1/3)1^3+1] - [(1/3)0^3+0] = 4/3。"
+    },
+    {
+        "instruction": "求函数f(x) = (x-1)^2(x+2)的单调区间。",
+        "input": "",
+        "output": "解析: f'(x) = 3x^2 - 2x - 4。令f'(x)=0，得x = (1±sqrt(13))/3。\n当x<(1-sqrt(13))/3或x>(1+sqrt(13))/3时，f'(x)>0，函数单调递增。\n当(1-sqrt(13))/3<x<(1+sqrt(13))/3时，f'(x)<0，函数单调递减。"
+    },
+    {
+        "instruction": "设 f(x)=\\left\\{\\begin{array}{ll}(x+1) \\arctan \\frac{1}{x^{2}-1}, & x \\neq \\pm 1, \\\\ 0, & x= \\pm 1,\\end{array}\\right. 则 f(x) 在 x=1 和 x=-1 处的连续性如何?",
+        "input": "",
+        "output": "解 当 x \\rightarrow-1 时, \\arctan \\frac{1}{x^{2}-1} 有界, x+1 \\rightarrow 0, 故\\lim_{x \\rightarrow-1} f(x)=0=f(-1),即 f(x) 在 x=-1 处连续. 又因为\\lim_{x \\rightarrow 1^{-}} f(x)=-\\pi, \\lim_{x \\rightarrow 1^{+}} f(x)=\\pi,所以 f(x) 在 x=1 处间断."
+    },
+    {
+        "instruction": "设X为连续型随机变量，概率密度函数为f(x)=2x, 0≤x≤1。求E(X)的值。",
+        "input": "",
+        "output": "解：E(X) = ∫(0到1) x * f(x) dx = ∫(0到1) x * 2x dx = ∫(0到1) 2x^2 dx = (2/3)x^3 | 0到1 = 2/3。"
+    },
+    {
+        "instruction": "求矩阵A的特征值和特征向量，其中A = [[3, 1], [1, 3]]。",
+        "input": "",
+        "output": "解题步骤：\n1. 求特征方程：|A - λI| = 0\n |(3-λ) 1|\n |1 (3-λ)| = 0\n2. 展开行列式：\n (3-λ)^2 - 1 = 0\n λ^2 - 6λ + 8 = 0\n3. 求解特征值：\n (λ-4)(λ-2) = 0\n λ1 = 4, λ2 = 2\n4. 求特征向量：\n 对于λ1 = 4：\n (A - 4I)v = 0\n [-1 1] [x] = [0]\n [1 -1] [y] [0]\n 解得：x = y，特征向量v1 = [1, 1]^T\n 对于λ2 = 2：\n (A - 2I)v = 0\n [1 1] [x] = [0]\n [1 1] [y] [0]\n 解得：x = -y，特征向量v2 = [1, -1]^T\n因此，矩阵A的特征值为4和2，对应的特征向量分别为[1, 1]^T和[1, -1]^T。"
+    },
+    {
+        "instruction": "设f(x)=ln(x)，求f(x)的导数。",
+        "input": "",
+        "output": "解: 使用对数函数的导数公式：f'(x) = 1/x。"
+    },
+    {
+        "instruction": "下列函数中, 在 x=0 处不可导的是哪个?",
+        "input": "",
+        "output": "解：\\begin{aligned}f_{+}^{\\prime}(0) & =\\lim _{x \\rightarrow 0^{+}} \\frac{\\cos \\sqrt{|x|}-1}{x}=\\lim _{x \\rightarrow 0^{+}} \\frac{-\\frac{1}{2}|x|}{x}=-\\frac{1}{2}, \\\\f_{-}^{\\prime}(0) & =\\lim _{x \\rightarrow 0^{-}} \\frac{\\cos \\sqrt{|x|}-1}{x}=\\lim _{x \\rightarrow 0^{-}} \\frac{-\\frac{1}{2}|x|}{x}=\\frac{1}{2},\\end{aligned}因此, f(x)=\\cos \\sqrt{|x|} 在 x=0 处不可导."
+    },
+    {
+        "instruction": "已知随机变量X和Y相互独立，且X~Exp(2), Y~Exp(3)，求Z=min(X,Y)的概率密度函数是什么?",
+        "input": "",
+        "output": "Z=min(X,Y)表示X和Y中较小的那个随机变量，其概率密度函数为：\nf_Z(z)=f_X(z)(1-F_Y(z))+f_Y(z)(1-F_X(z))\n=2e^(-2z)(e^(-3z))+3e^(-3z)(e^(-2z))=5e^(-5z), z>0"
+    },
+    {
+        "instruction": "设A为n阶方阵,λ为A的特征值,x为对应的特征向量。请写出正确的等式。",
+        "input": "",
+        "output": "证明:\n1. 由特征值和特征向量的定义,我们有:Ax=λx\n2. 等式两边同时减去λx:\n   Ax-λx=λx-λx\n3. 左边提取公因式x:\n   (A-λI)x=0\n得证。"
+    },
+    {
+        "instruction": "设f(x)=sin(x)，求f(x)在x=π/6处的泰勒展开式。",
+        "input": "",
+        "output": "解: 在x=π/6处的泰勒展开式为：\nf(x) ≈ sin(π/6) + cos(π/6)(x-π/6) - sin(π/6)(x-π/6)^2/2\n≈ 1/2 + √3/2(x-π/6) - 1/4(x-π/6)^2。"
+    },
+    {
+        "instruction": "计算矩阵A=[[1,2],[3,4]]的迹tr(A)。",
+        "input": "",
+        "output": "解: 矩阵的迹等于其对角线元素之和。所以tr(A)=1+4=5。"
+    },
+    {
+        "instruction": "计算矩阵A=[[1, 2], [2, 4]]的特征向量。已知A的特征值为λ1=0，λ2=5，请分别求出对应于这两个特征值的特征向量。",
+        "input": "",
+        "output": "解: 已知矩阵A的特征值为λ1=0，λ2=5。对于λ1=0，解方程(A-λ1I)x=0，得到特征向量x1=[-2, 1]；对于λ2=5，解方程(A-λ2I)x=0，得到特征向量x2=[1, 2]。"
+    },
+    {
+        "instruction": "设随机变量X服从参数为λ的泊松分布，求X的方差Var(X)是多少?",
+        "input": "",
+        "output": "解：泊松分布的期望值和方差都等于参数λ。所以，Var(X) = λ。"
+    },
+    {
+        "instruction": "已知函数$f(x)=\\sin(x)+\\cos(x)$，求$f(x)$在区间$[0,2\\pi]$上的最大值和最小值。",
+        "input": "",
+        "output": "解析: 求导数：$f'(x)=\\cos(x)-\\sin(x)$\n令$f'(x)=0$，解得$x=\\frac{\\pi}{4}$或$x=\\frac{5\\pi}{4}$\n比较$f(0), f(\\frac{\\pi}{4}), f(\\frac{5\\pi}{4}), f(2\\pi)$的值，可得最大值为$\\sqrt{2}$，最小值为$-\\sqrt{2}$"
+    },
+    {
+        "instruction": "求解方程组：\n2x + y - z = 1\n3x - y + 2z = 4\nx + 2y + z = 3\n\n请给出 x, y, z 的值。",
+        "input": "",
+        "output": "使用高斯消元法：\n1. 将方程化为增广矩阵：\n[[2 1 -1 | 1]\n[3 -1 2 | 4]\n[1 2 1 | 3]]\n2. 用第一行消去第二、三行的x项：\n[[2 1 -1 | 1]\n[0 -5/2 5/2 | 5/2]\n[0 3/2 3/2 | 5/2]]\n3. 用第二行消去第三行的y项：\n[[2 1 -1 | 1]\n[0 -5/2 5/2 | 5/2]\n[0 0 15/5 | 15/5]]\n4. 回代求解：\nz = 1\ny = 1\nx = 1\n\n因此，方程组的解为 x = 1, y = 1, z = 1。"
+    },
+    {
+        "instruction": "使用梯度下降法求解函数f(x) = (x-2)^2 + 3 的最小值，学习率α=0.1，初始点x=0。经过多次迭代后，最终收敛到的最小值点附近的x值是多少?",
+        "input": "",
+        "output": "解: 1. 求f(x)的导数：f'(x) = 2(x-2)\n2. 迭代公式：x_new = x - αf'(x)\n3. 第一次迭代：x_1 = 0 - 0.1 * 2(0-2) = 0.4\n4. 第二次迭代：x_2 = 0.4 - 0.1 * 2(0.4-2) = 0.72\n5. ...继续迭代，直到x收敛到最小值点附近，此时f'(x)≈0。最终x会接近于2，但不会完全等于2。"
+    },
+    {
+        "instruction": "计算矩阵A=[[1, 2, 3], [0, 1, 4], [1, 3, 7]]的秩是多少?",
+        "input": "",
+        "output": "对矩阵A进行行变换，得到：\n[[1, 2, 3],\n [0, 1, 4],\n [0, 0, 0]]\n\n矩阵的秩等于非零行的个数，所以rank(A)=2"
+    },
+    {
+        "instruction": "设随机变量X的概率密度函数为f(x)=1/(2π)^(1/2) * e^(-x^2/2)，求P(|X|<1)的值。",
+        "input": "",
+        "output": "解题步骤：\n1. 识别分布：给定的概率密度函数是标准正态分布N(0,1)的密度函数。\n2. 转化问题：P(|X|<1) = P(-1<X<1)\n3. 利用标准正态分布的对称性：\nP(-1<X<1) = 2P(0<X<1) = 2[Φ(1) - Φ(0)]\n其中Φ是标准正态分布的累积分布函数\n4. 查表或使用计算器：\nΦ(1) ≈ 0.8413\nΦ(0) = 0.5\n5. 计算结果：\nP(|X|<1) = 2(0.8413 - 0.5) ≈ 0.6826\n因此，P(|X|<1) ≈ 0.6826 或约68.26%"
+    },
+    {
+        "instruction": "求解方程 $2^{x+1} - 3 \\cdot 2^x = 4$ 的解。",
+        "input": "",
+        "output": "解析: 令 $t = 2^x$，则方程变为 $2t - 3t = 4$，解得 $t = -4$。因为 $2^x > 0$，所以方程无解。"
+    },
+    {
+        "instruction": "计算向量a=[1,2]和b=[3,4]的投影向量proj_b(a)。",
+        "input": "",
+        "output": "解: 向量a在向量b上的投影向量proj_b(a)=((a·b)/(||b||^2))b。\n所以proj_b(a)=((1*3+2*4)/(3^2+4^2))[3,4]=(11/25)[3,4]=[33/25,44/25]。"
+    },
+    {
+        "instruction": "求解方程组：x + y + z = 6, x - y + 2z = 9, 2x + y - z = 1 的解。",
+        "input": "",
+        "output": "使用消元法：\nx + y + z = 6 ... (1)\nx - y + 2z = 9 ... (2)\n2x + y - z = 1 ... (3)\n(1)+(2): 2x + 3z = 15 ... (4)\n(1)-(3): -x + 2z = 5 ... (5)\n2*(5): -2x + 4z = 10 ... (6)\n(4)-(6): 6x - z = 5\nx - (1/6)z = 5/6 ... (7)\n代入(5)：-5/6 + (1/6)z + 2z = 5\n13z/6 = 35/6\nz = 35/13\n代入(7)：x = 5/6 + (1/6)*(35/13) = 65/78\n代入(1)：y = 6 - 65/78 - 35/13 = 1/6\n解得 x = 65/78, y = 1/6, z = 35/13。"
+    },
+    {
+        "instruction": "计算矩阵A=[[2,1],[1,2]]的逆矩阵A^-1。",
+        "input": "",
+        "output": "解: 二阶矩阵[[a,b],[c,d]]的逆矩阵为(1/(ad-bc))[[d,-b],[-c,a]]。\n所以A^-1=(1/(2*2-1*1))[[2,-1],[-1,2]]=[[2/3,-1/3],[-1/3,2/3]]."
+    },
+    {
+        "instruction": "计算矩阵A=[[1, 2], [3, 4]]的行列式det(A)。",
+        "input": "",
+        "output": "解：det(A) = 1 * 4 - 2 * 3 = -2。"
+    },
+    {
+        "instruction": "已知随机变量X~U(a,b)，求X的方差Var(X)是多少?",
+        "input": "",
+        "output": "均匀分布的方差为：Var(X)=(b-a)^2/12"
+    },
+    {
+        "instruction": "已知矩阵A为3x3矩阵，A的行列式det(A) = 5，求kA的行列式的值。",
+        "input": "",
+        "output": "对于一个n阶矩阵A，kA的行列式为k^n * det(A)。因此，对于3x3矩阵A，det(kA) = k^3 * 5。"
+    },
+    {
+        "instruction": "设有函数f(x)=x^3+3x^2+3x+1，求f(x)在x=1处的切线方程。",
+        "input": "",
+        "output": "解：f(x)=x^3+3x^2+3x+1，\nf'(x)=3x^2+6x+3。\n在x=1处，f'(1)=3*1^2+6*1+3=12，f(1)=1^3+3*1^2+3*1+1=8。\n切线方程为y=f'(1)(x-1)+f(1)=12(x-1)+8=12x-4。"
+    },
+    {
+        "instruction": "设随机变量X服从参数为λ的泊松分布，Y=2X+1。求Y的期望E(Y)和方差Var(Y)。",
+        "input": "",
+        "output": "对于泊松分布，E(X) = λ 和 Var(X) = λ。因此：\n1. E(Y) = E(2X+1) = 2E(X) + 1 = 2λ + 1\n2. Var(Y) = Var(2X+1) = 4Var(X) = 4λ"
+    },
+    {
+        "instruction": "设A是n×n矩阵,B是n×m矩阵,关于rank(AB)的性质，描述正确的是什么？",
+        "input": "",
+        "output": "证明:\n1. 由矩阵乘法性质,AB的列空间包含于A的列空间\n因此,rank(AB) ≤ rank(A)\n2. 考虑(AB)^T = B^T A^T\n同理,rank((AB)^T) ≤ rank(B^T)\n3. 因为rank(M) = rank(M^T)对任意矩阵M成立\n所以rank(AB) = rank((AB)^T) ≤ rank(B^T) = rank(B)\n4. 综合1和3,得到rank(AB) ≤ rank(A)且rank(AB) ≤ rank(B)\n因此,rank(AB) ≤ min{rank(A),rank(B)}得证。"
+    },
+    {
+        "instruction": "求解以下方程组：x + y = 5 和 2x - y = 1，x和y的值分别是多少?",
+        "input": "",
+        "output": "解这个方程组，得到x = 2，y = 3。"
+    },
+    {
+        "instruction": "简述什么是交叉熵损失函数，以及它在机器学习中的应用。",
+        "input": "",
+        "output": "解析: 交叉熵损失函数是一种常用于分类问题的损失函数，尤其适用于二分类和多分类问题。它衡量的是模型预测的概率分布与真实标签的概率分布之间的差异程度。\n\n公式：\n对于二分类问题，交叉熵损失函数的公式为：\nL = -[y*log(p) + (1-y)*log(1-p)]\n其中：\ny 是真实标签（0 或 1）\np 是模型预测为正例的概率\n\n对于多分类问题，交叉熵损失函数的公式为：\nL = -∑[y_i * log(p_i)]\n其中：\ny_i 是真实标签的 one-hot 编码中的第 i 个元素（0 或 1）\np_i 是模型预测为第 i 类的概率\n\n应用：\n* 逻辑回归：交叉熵损失函数是逻辑回归模型常用的损失函数。\n* 神经网络：在神经网络中，交叉熵损失函数常用于分类任务的输出层，例如图像分类、文本分类等。\n\n优点：\n* 对错误分类的惩罚更大，有助于提高模型的准确率。\n* 与 sigmoid 函数结合使用时，梯度计算更稳定，有助于加速模型训练。"
+    },
+    {
+        "instruction": "设A为3x3矩阵，已知A的行列式|A|=5，求A的逆矩阵A^-1的行列式的值。",
+        "input": "",
+        "output": "解析: 对于矩阵A及其逆矩阵A^-1，有|A||A^-1|=1。因此，|A^-1|=1/|A|=1/5。"
+    },
+    {
+        "instruction": "已知矩阵A的特征值为2, -1, 3，求其行列式的值。",
+        "input": "",
+        "output": "解: 矩阵的行列式等于其特征值的乘积。因此，det(A)=2 * (-1) * 3 = -6."
+    },
+    {
+        "instruction": "求函数f(x) = (x^2-4)/(x^2+1)的渐近线。",
+        "input": "",
+        "output": "水平渐近线：\nlim(x->±∞) f(x) = lim(x->±∞) (1-4/x^2)/(1+1/x^2) = 1\n所以，y=1是函数的水平渐近线。\n垂直渐近线：\n函数f(x)的定义域为全体实数，不存在垂直渐近线。"
+    },
+    {
+        "instruction": "求函数f(x)=ln(x^2+1)的导数。",
+        "input": "",
+        "output": "解: 根据链式法则，f'(x) = (1/(x^2 + 1)) * 2x = (2x)/(x^2 + 1)"
+    },
+    {
+        "instruction": "已知函数f(x)=|x-1|，判断f(x)在x=1处是否可导，并说明理由。",
+        "input": "",
+        "output": "解：已知函数f(x)=|x-1|，判断f(x)在x=1处是否可导。通过计算得出f(x)在x=1处左导数为-1，右导数为1，左右导数不相等，所以f(x)在x=1处不可导。"
+    },
+    {
+        "instruction": "设f(x)=sin(x)，求f(x)在x=π/4处的泰勒展开式。",
+        "input": "",
+        "output": "解析: 在x=π/4处的泰勒展开式为：\nf(x) ≈ sin(π/4) + cos(π/4)(x-π/4) - sin(π/4)(x-π/4)^2/2!\n≈ √2/2 + √2/2(x-π/4) - √2/4(x-π/4)^2。"
+    },
+    {
+        "instruction": "求函数f(x)=x^4-4x^3+6x^2在x=1处的泰勒展开式。",
+        "input": "",
+        "output": "解析: 在x=1处的泰勒展开式为：\nf(x) ≈ f(1) + f'(1)(x-1) + f''(1)(x-1)^2/2 + f'''(1)(x-1)^3/6。\n已知f(1)=1，f'(1)=0，f''(1)=4，f'''(1)=0，\n所以f(x) ≈ 1 + 4(x-1)^2/2 = 1 + 2(x-1)^2。"
+    },
+    {
+        "instruction": "计算矩阵A的特征值和特征向量，其中A = [[3, 1], [1, 3]]。",
+        "input": "",
+        "output": "解析: \n1. 特征方程：|A - λI| = 0\n(3-λ)(3-λ) - 1 = 0\nλ^2 - 6λ + 8 = 0\n2. 解得：λ_1 = 4, λ_2 = 2\n3. 对λ_1 = 4：(3-4)x + y = 0, x = y\n特征向量v_1 = (1, 1)\n4. 对λ_2 = 2：x + y = 0\n特征向量v_2 = (1, -1)"
+    },
+    {
+        "instruction": "设随机变量X服从参数为p的伯努利分布，求X的方差Var(X)是多少?",
+        "input": "",
+        "output": "解：伯努利分布的方差为Var(X) = p(1-p)。"
+    },
+    {
+        "instruction": "计算极限：lim(x→0) (sin(3x) / x) 的值是多少?",
+        "input": "",
+        "output": "解: 使用洛必达法则：\nlim(x→0) (sin(3x) / x) = lim(x→0) (3cos(3x) / 1) = 3"
+    },
+    {
+        "instruction": "计算行列式 | 2  1  0 |\n| 1  3 -1 |\n| 0 -1  2 | 的值是多少?",
+        "input": "",
+        "output": "解: 行列式可以通过展开计算：\n| 2  1  0 |\n| 1  3 -1 | = 2 * | 3 -1 | - 1 * | 1 -1 | + 0 * | 1  3 |\n| 0 -1  2 |     |-1  2 |       | 0  2 |       | 0 -1 |\n          = 2 * (6 - 1) - 1 * (2 - 0)\n          = 8"
+    },
+    {
+        "instruction": "已知随机变量X服从标准正态分布N(0,1)，求P(X>1.96)的值是多少?",
+        "input": "",
+        "output": "解: 查标准正态分布表可知，P(X>1.96)=0.025。"
+    },
+    {
+        "instruction": "计算向量a=[1,2,3]和b=[-1,1,2]的夹角θ的余弦值cos(θ)。",
+        "input": "",
+        "output": "解: 向量a和b的夹角θ的余弦值cos(θ)=(a·b)/(||a||||b||)，其中||a||表示向量a的模长。\n所以cos(θ)=(1(-1)+2*1+3*2)/(√(1^2+2^2+3^2)√((-1)^2+1^2+2^2))=7/(√14√6)。"
+    },
+    {
+        "instruction": "已知随机变量X服从二项分布B(10, 0.3)，求P(X=2)的值。",
+        "input": "",
+        "output": "解: 二项分布的概率质量函数为：P(X=k)=C(n,k)p^k(1-p)^(n-k)\n所以，P(X=2)=C(10,2)0.3^2(1-0.3)^8=45*0.09*0.233≈0.233"
+    }
+]
