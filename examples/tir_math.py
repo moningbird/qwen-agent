@@ -144,7 +144,7 @@ def process_dataset(dataset_path: str, output_path: str):
 
 if __name__ == '__main__':
     # 处理数据集并输出结果
-     dataset_path = os.path.join(ROOT_RESOURCE, 'yingyongti_test.json')
+     dataset_path = os.path.join(ROOT_RESOURCE, 'yingyongti_math.json')
      output_path = os.path.join(ROOT_RESOURCE, 'tir_math.json')
      process_dataset(dataset_path, output_path)
 
